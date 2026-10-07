@@ -1,0 +1,24 @@
+provincia,region,codigos_indec,cammesa,enargas
+Buenos Aires y CABA,Pampeana,02|06,BUENOS AIRES,Buenos Aires|Capital Federal
+Catamarca,NOA,10,CATAMARCA,Catamarca
+Chaco,NEA,22,CHACO,Chaco
+Chubut,Patagonia,26,CHUBUT,Chubut
+Córdoba,Pampeana,14,CORDOBA,Cordoba
+Corrientes,NEA,18,CORRIENTES,Corrientes
+Entre Ríos,Pampeana,30,ENTRE RIOS,Entre Rios
+Formosa,NEA,34,FORMOSA,
+Jujuy,NOA,38,JUJUY,Jujuy
+La Pampa,Pampeana,42,LA PAMPA,La Pampa
+La Rioja,NOA,46,LA RIOJA,La Rioja
+Mendoza,Cuyo,50,MENDOZA,Mendoza
+Misiones,NEA,54,MISIONES,
+Neuquén,Patagonia,58,NEUQUEN,Neuquen
+Río Negro,Patagonia,62,RIO NEGRO,Rio Negro
+Salta,NOA,66,SALTA,Salta
+San Juan,Cuyo,70,SAN JUAN,San Juan
+San Luis,Cuyo,74,SAN LUIS,San Luis
+Santa Cruz,Patagonia,78,SANTA CRUZ,Santa Cruz
+Santa Fe,Pampeana,82,SANTA FE,Santa Fe
+Santiago del Estero,NOA,86,SGO.DEL ESTERO,Santiago Del Estero
+Tierra del Fuego,Patagonia,94,,Tierra Del Fuego
+Tucumán,NOA,90,TUCUMAN,Tucuman
