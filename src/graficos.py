@@ -261,6 +261,27 @@ def g10_gas_por_usuario(R):
     return fig
 
 
+def g11_costa_atlantica(R):
+    t = R['costa']['temporadas_indice']
+    locs = [c for c in t['verano'].columns if c != 'Total país']
+    fig, axs = plt.subplots(1, len(locs), figsize=(11, 4.6), sharey=True)
+    for ax, loc in zip(np.atleast_1d(axs), locs):
+        for temp, col, etiqueta in [('verano', NARANJA, 'Verano (ene-feb)'), ('invierno', AZUL, 'Invierno (jun-ago)')]:
+            s = t[temp][loc].dropna()
+            ax.plot(s.index, s, color=col, marker='o', ms=4, label=etiqueta)
+            ax.annotate(f'{s.iloc[-1]:.0f}', (s.index[-1], s.iloc[-1]), xytext=(6, 0), textcoords='offset points',
+                        va='center', fontsize=9, color=TINTA)
+        ax.axhline(100, color=TINTA_2, lw=0.8, ls='--')
+        ax.set_title(loc, fontsize=11)
+    np.atleast_1d(axs)[0].set_ylabel(f'demanda mensual promedio ({indices.BASE} = 100)')
+    np.atleast_1d(axs)[0].legend(loc='lower left')
+    fig.suptitle('Costa Atlántica: demanda eléctrica de temporada y de invierno', x=0.01, ha='left',
+                 fontweight='bold', fontsize=12)
+    _fuente(fig, 'Fuente: CAMMESA (demanda de las cooperativas eléctricas de Villa Gesell y San Bernardo). '
+                 'Elaboración propia.')
+    return fig
+
+
 GRAFICOS = {
     '01_indice_industrial': g01_indice_industrial,
     '02_industria_por_fuente': g02_componentes_industria,
@@ -272,4 +293,5 @@ GRAFICOS = {
     '08_heatmap_provincias': g08_heatmap_provincias,
     '09_ramas_gas': g09_ramas,
     '10_gas_por_usuario': g10_gas_por_usuario,
+    '11_costa_atlantica': g11_costa_atlantica,
 }

@@ -178,6 +178,48 @@ def gas_por_usuario(gas: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
+def costa(costa_elec: pd.DataFrame, elec_pais: pd.DataFrame | None = None) -> dict[str, pd.DataFrame]:
+    """Electricidad de las cooperativas de la Costa Atlantica (procesar.AGENTES_COSTA): temporada de verano
+    (promedio mensual ene-feb) vs invierno (promedio mensual jun-ago, poblacion permanente). Con elec_pais
+    (tabla electricidad del pipeline) agrega la demanda total del pais como referencia."""
+    if elec_pais is not None:
+        pais = elec_pais.groupby(['fecha', 'sector'], as_index=False)['mwh'].sum().assign(localidad='Total país')
+        costa_elec = pd.concat([costa_elec, pais], ignore_index=True)
+    w = costa_elec.pivot_table(index='fecha', columns='localidad', values='mwh', aggfunc='sum') / 1e3  # GWh
+    hog = costa_elec[costa_elec['sector'] == 'hogares'].pivot_table(index='fecha', columns='localidad',
+                                                                     values='mwh', aggfunc='sum') / 1e3
+
+    def temporada(meses):
+        x = w[w.index.month.isin(meses)]
+        n = x.groupby(x.index.year).size()
+        return x.groupby(x.index.year).mean()[n == len(meses)]
+
+    ver, inv = temporada([1, 2]), temporada([6, 7, 8])
+    meses = w.groupby(w.index.year).size()
+    completos = meses[meses == 12].index
+    anual = w.groupby(w.index.year).sum().loc[completos]
+    perfil = w[w.index.year.isin(completos)]
+    perfil = perfil / perfil.groupby(perfil.index.year).transform('mean')
+    perfil = perfil.groupby(perfil.index.month).mean()     # mes / promedio mensual de su anio
+    ua, uv, ui = completos.max(), ver.index.max(), inv.index.max()
+    hog_anual = hog.groupby(hog.index.year).sum().loc[completos]
+    t = pd.DataFrame({
+        f'gwh_{ua}': anual.loc[ua],
+        f'part_hogares_{ua}_%': 100 * hog_anual.loc[ua] / anual.loc[ua],
+        'enero_vs_promedio': perfil.loc[1],
+        f'verano_{uv}_vs_{uv - 1}_%': 100 * (ver.loc[uv] / ver.loc[uv - 1] - 1),
+        f'verano_{uv}_vs_{BASE}_%': 100 * (ver.loc[uv] / ver.loc[BASE] - 1),
+        f'invierno_{ui}_vs_{ui - 1}_%': 100 * (inv.loc[ui] / inv.loc[ui - 1] - 1),
+        f'invierno_{ui}_vs_{BASE}_%': 100 * (inv.loc[ui] / inv.loc[BASE] - 1),
+        f'verano_sobre_invierno_{BASE}': ver.loc[BASE] / inv.loc[BASE],
+        f'verano_sobre_invierno_{ui}': ver.loc[ui] / inv.loc[ui],
+    })
+    t.index.name = 'localidad'
+    temporadas = pd.concat({'verano': 100 * ver / ver.loc[BASE], 'invierno': 100 * inv / inv.loc[BASE]}, axis=1)
+    return {'mensual_gwh': w, 'anual_gwh': anual, 'perfil_mensual': perfil, 'temporadas_indice': temporadas,
+            'resumen': t}
+
+
 def construir(panel: pd.DataFrame, gas: pd.DataFrame, ramas_gas: pd.DataFrame, series: pd.DataFrame,
               provincias: pd.DataFrame) -> dict:
     tj = nacional_tj(panel)

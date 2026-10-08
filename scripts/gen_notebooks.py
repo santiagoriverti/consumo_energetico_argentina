@@ -231,6 +231,18 @@ cualquier otra cosa.
 t = g.iloc[[-37, -13, -1]].T
 t.columns = [d.strftime('12m a %m/%Y') for d in t.columns]
 display(t.sort_values(t.columns[-1], ascending=False))'''),
+    md(r'''
+## Costa Atlántica (primer paso hacia el foco en Pinamar y General Madariaga)
+
+CAMMESA no informa por separado a Pinamar ni a General Madariaga (su demanda está dentro de la de una
+distribuidora regional), pero sí a dos cooperativas vecinas que son agentes del mercado mayorista: **Villa
+Gesell** (CEVIGE) y **San Bernardo** (CESOP, Partido de La Costa). Con ellas se separa la demanda de
+**temporada** (promedio mensual de enero y febrero) de la de **invierno** (junio a agosto, población
+permanente), y se comparan con el total del país.
+'''),
+    code(r'''fig = graficos.g11_costa_atlantica(R); plt.show()'''),
+    code(r'''with pd.option_context('display.float_format', '{:,.2f}'.format):
+    display(R['costa']['resumen'].T)'''),
     *descarga('ICE_02_provincias'),
 ]
 

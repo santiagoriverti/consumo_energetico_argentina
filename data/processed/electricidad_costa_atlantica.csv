@@ -1,0 +1,980 @@
+fecha,localidad,sector,mwh
+2012-01-01,San Bernardo (La Costa),comercio,3521.4720
+2012-01-01,San Bernardo (La Costa),hogares,3626.7900
+2012-01-01,San Bernardo (La Costa),industria,0.0020
+2012-01-01,Villa Gesell,comercio,7531.2830
+2012-01-01,Villa Gesell,hogares,7760.6720
+2012-01-01,Villa Gesell,industria,426.1440
+2012-02-01,San Bernardo (La Costa),comercio,3083.3810
+2012-02-01,San Bernardo (La Costa),hogares,3042.5730
+2012-02-01,San Bernardo (La Costa),industria,0.0010
+2012-02-01,Villa Gesell,comercio,5564.7440
+2012-02-01,Villa Gesell,hogares,7949.3670
+2012-02-01,Villa Gesell,industria,300.0590
+2012-03-01,San Bernardo (La Costa),comercio,1861.5380
+2012-03-01,San Bernardo (La Costa),hogares,1466.1710
+2012-03-01,San Bernardo (La Costa),industria,0.0020
+2012-03-01,Villa Gesell,comercio,4701.5960
+2012-03-01,Villa Gesell,hogares,4701.4820
+2012-03-01,Villa Gesell,industria,171.0650
+2012-04-01,San Bernardo (La Costa),comercio,1541.1520
+2012-04-01,San Bernardo (La Costa),hogares,1300.4000
+2012-04-01,San Bernardo (La Costa),industria,0.0010
+2012-04-01,Villa Gesell,comercio,4204.2660
+2012-04-01,Villa Gesell,hogares,4924.5860
+2012-04-01,Villa Gesell,industria,156.8190
+2012-05-01,San Bernardo (La Costa),comercio,1336.3410
+2012-05-01,San Bernardo (La Costa),hogares,1147.0790
+2012-05-01,San Bernardo (La Costa),industria,0.0010
+2012-05-01,Villa Gesell,comercio,4293.6870
+2012-05-01,Villa Gesell,hogares,4759.0120
+2012-05-01,Villa Gesell,industria,183.5260
+2012-06-01,San Bernardo (La Costa),comercio,1356.6080
+2012-06-01,San Bernardo (La Costa),hogares,1147.9530
+2012-06-01,San Bernardo (La Costa),industria,0.0010
+2012-06-01,Villa Gesell,comercio,4115.6160
+2012-06-01,Villa Gesell,hogares,5684.4850
+2012-06-01,Villa Gesell,industria,134.7320
+2012-07-01,San Bernardo (La Costa),comercio,1512.5560
+2012-07-01,San Bernardo (La Costa),hogares,1642.1670
+2012-07-01,San Bernardo (La Costa),industria,0.0010
+2012-07-01,Villa Gesell,comercio,5650.8250
+2012-07-01,Villa Gesell,hogares,6274.1200
+2012-07-01,Villa Gesell,industria,235.7520
+2012-08-01,San Bernardo (La Costa),comercio,1342.0040
+2012-08-01,San Bernardo (La Costa),hogares,1290.0160
+2012-08-01,San Bernardo (La Costa),industria,0.0010
+2012-08-01,Villa Gesell,comercio,4654.9950
+2012-08-01,Villa Gesell,hogares,5603.0360
+2012-08-01,Villa Gesell,industria,206.1920
+2012-09-01,San Bernardo (La Costa),comercio,1319.1040
+2012-09-01,San Bernardo (La Costa),hogares,1200.2820
+2012-09-01,Villa Gesell,comercio,4178.1520
+2012-09-01,Villa Gesell,hogares,5012.6200
+2012-09-01,Villa Gesell,industria,183.9140
+2012-10-01,San Bernardo (La Costa),comercio,1365.2650
+2012-10-01,San Bernardo (La Costa),hogares,1124.0150
+2012-10-01,San Bernardo (La Costa),industria,0.0010
+2012-10-01,Villa Gesell,comercio,4003.3810
+2012-10-01,Villa Gesell,hogares,4795.6660
+2012-10-01,Villa Gesell,industria,161.6800
+2012-11-01,San Bernardo (La Costa),comercio,1445.2100
+2012-11-01,San Bernardo (La Costa),hogares,1052.2290
+2012-11-01,Villa Gesell,comercio,3082.9310
+2012-11-01,Villa Gesell,hogares,4756.0220
+2012-11-01,Villa Gesell,industria,135.6850
+2012-12-01,San Bernardo (La Costa),comercio,2012.1300
+2012-12-01,San Bernardo (La Costa),hogares,1499.1710
+2012-12-01,San Bernardo (La Costa),industria,0.0030
+2012-12-01,Villa Gesell,comercio,5068.7270
+2012-12-01,Villa Gesell,hogares,4696.9450
+2012-12-01,Villa Gesell,industria,204.7730
+2013-01-01,San Bernardo (La Costa),comercio,3445.0240
+2013-01-01,San Bernardo (La Costa),hogares,3638.4270
+2013-01-01,San Bernardo (La Costa),industria,0.0010
+2013-01-01,Villa Gesell,comercio,7820.6370
+2013-01-01,Villa Gesell,hogares,8076.2100
+2013-01-01,Villa Gesell,industria,0.0090
+2013-02-01,San Bernardo (La Costa),comercio,2872.9580
+2013-02-01,San Bernardo (La Costa),hogares,2951.6590
+2013-02-01,San Bernardo (La Costa),industria,0.0030
+2013-02-01,Villa Gesell,comercio,6575.5770
+2013-02-01,Villa Gesell,hogares,6837.1990
+2013-02-01,Villa Gesell,industria,0.0040
+2013-03-01,San Bernardo (La Costa),comercio,1975.9430
+2013-03-01,San Bernardo (La Costa),hogares,1625.3680
+2013-03-01,Villa Gesell,comercio,5168.3650
+2013-03-01,Villa Gesell,hogares,5225.7740
+2013-03-01,Villa Gesell,industria,5.0880
+2013-04-01,San Bernardo (La Costa),comercio,1429.9140
+2013-04-01,San Bernardo (La Costa),hogares,1097.9430
+2013-04-01,Villa Gesell,comercio,3969.0420
+2013-04-01,Villa Gesell,hogares,3930.9500
+2013-04-01,Villa Gesell,industria,538.4700
+2013-05-01,San Bernardo (La Costa),comercio,1396.1210
+2013-05-01,San Bernardo (La Costa),hogares,1138.3810
+2013-05-01,Villa Gesell,comercio,3692.8390
+2013-05-01,Villa Gesell,hogares,5824.5160
+2013-05-01,Villa Gesell,industria,161.5660
+2013-06-01,San Bernardo (La Costa),comercio,1451.5000
+2013-06-01,San Bernardo (La Costa),hogares,1354.8290
+2013-06-01,Villa Gesell,comercio,4561.1620
+2013-06-01,Villa Gesell,hogares,6178.1320
+2013-06-01,Villa Gesell,industria,201.8390
+2013-07-01,San Bernardo (La Costa),comercio,1561.5320
+2013-07-01,San Bernardo (La Costa),hogares,1568.9820
+2013-07-01,San Bernardo (La Costa),industria,0.0020
+2013-07-01,Villa Gesell,comercio,4891.8780
+2013-07-01,Villa Gesell,hogares,6935.0960
+2013-07-01,Villa Gesell,industria,200.9000
+2013-08-01,San Bernardo (La Costa),comercio,1428.7510
+2013-08-01,San Bernardo (La Costa),hogares,1397.0800
+2013-08-01,San Bernardo (La Costa),industria,0.0010
+2013-08-01,Villa Gesell,comercio,5036.3070
+2013-08-01,Villa Gesell,hogares,5723.0500
+2013-08-01,Villa Gesell,industria,230.2220
+2013-09-01,San Bernardo (La Costa),comercio,1340.7100
+2013-09-01,San Bernardo (La Costa),hogares,1214.9410
+2013-09-01,San Bernardo (La Costa),industria,0.0010
+2013-09-01,Villa Gesell,comercio,4401.3830
+2013-09-01,Villa Gesell,hogares,5294.7690
+2013-09-01,Villa Gesell,industria,170.1400
+2013-10-01,San Bernardo (La Costa),comercio,1385.3840
+2013-10-01,San Bernardo (La Costa),hogares,1167.1800
+2013-10-01,San Bernardo (La Costa),industria,0.0020
+2013-10-01,Villa Gesell,comercio,4297.6240
+2013-10-01,Villa Gesell,hogares,4753.1160
+2013-10-01,Villa Gesell,industria,114.1610
+2013-11-01,San Bernardo (La Costa),comercio,1397.2380
+2013-11-01,San Bernardo (La Costa),hogares,1141.2410
+2013-11-01,San Bernardo (La Costa),industria,0.0010
+2013-11-01,Villa Gesell,comercio,4099.9310
+2013-11-01,Villa Gesell,hogares,4317.7960
+2013-11-01,Villa Gesell,industria,128.4210
+2013-12-01,San Bernardo (La Costa),comercio,2101.0660
+2013-12-01,San Bernardo (La Costa),hogares,1608.2520
+2013-12-01,San Bernardo (La Costa),industria,0.0010
+2013-12-01,Villa Gesell,comercio,5482.9610
+2013-12-01,Villa Gesell,hogares,5420.2940
+2013-12-01,Villa Gesell,industria,122.9540
+2014-01-01,San Bernardo (La Costa),comercio,3824.4210
+2014-01-01,San Bernardo (La Costa),hogares,4040.8830
+2014-01-01,San Bernardo (La Costa),industria,0.0020
+2014-01-01,Villa Gesell,comercio,7861.0280
+2014-01-01,Villa Gesell,hogares,8374.8070
+2014-01-01,Villa Gesell,industria,342.3220
+2014-02-01,San Bernardo (La Costa),comercio,3575.8010
+2014-02-01,San Bernardo (La Costa),hogares,3990.2580
+2014-02-01,San Bernardo (La Costa),industria,0.0010
+2014-02-01,Villa Gesell,comercio,6248.1320
+2014-02-01,Villa Gesell,hogares,6928.5570
+2014-02-01,Villa Gesell,industria,233.5420
+2014-03-01,San Bernardo (La Costa),comercio,2073.0710
+2014-03-01,San Bernardo (La Costa),hogares,1847.0710
+2014-03-01,San Bernardo (La Costa),industria,0.0010
+2014-03-01,Villa Gesell,comercio,4954.7180
+2014-03-01,Villa Gesell,hogares,5220.1290
+2014-03-01,Villa Gesell,industria,122.8920
+2014-04-01,San Bernardo (La Costa),comercio,1479.5340
+2014-04-01,San Bernardo (La Costa),hogares,1244.4550
+2014-04-01,Villa Gesell,comercio,4034.6510
+2014-04-01,Villa Gesell,hogares,5093.7700
+2014-04-01,Villa Gesell,industria,127.3120
+2014-05-01,San Bernardo (La Costa),comercio,1435.4750
+2014-05-01,San Bernardo (La Costa),hogares,1218.3600
+2014-05-01,San Bernardo (La Costa),industria,0.0030
+2014-05-01,Villa Gesell,comercio,4472.1710
+2014-05-01,Villa Gesell,hogares,5196.0180
+2014-05-01,Villa Gesell,industria,127.7970
+2014-06-01,San Bernardo (La Costa),comercio,1394.8550
+2014-06-01,San Bernardo (La Costa),hogares,1265.2660
+2014-06-01,San Bernardo (La Costa),industria,0.0010
+2014-06-01,Villa Gesell,comercio,4616.0220
+2014-06-01,Villa Gesell,hogares,5498.7680
+2014-06-01,Villa Gesell,industria,144.5960
+2014-07-01,San Bernardo (La Costa),comercio,1426.2940
+2014-07-01,San Bernardo (La Costa),hogares,1490.4210
+2014-07-01,Villa Gesell,comercio,4763.6050
+2014-07-01,Villa Gesell,hogares,6621.4660
+2014-07-01,Villa Gesell,industria,128.7610
+2014-08-01,San Bernardo (La Costa),comercio,1308.1330
+2014-08-01,San Bernardo (La Costa),hogares,1411.3610
+2014-08-01,San Bernardo (La Costa),industria,0.0010
+2014-08-01,Villa Gesell,comercio,4590.6230
+2014-08-01,Villa Gesell,hogares,5952.7450
+2014-08-01,Villa Gesell,industria,0.0010
+2014-09-01,San Bernardo (La Costa),comercio,1201.1010
+2014-09-01,San Bernardo (La Costa),hogares,1132.1980
+2014-09-01,San Bernardo (La Costa),industria,0.0010
+2014-09-01,Villa Gesell,comercio,4187.7610
+2014-09-01,Villa Gesell,hogares,4797.5350
+2014-09-01,Villa Gesell,industria,147.9360
+2014-10-01,San Bernardo (La Costa),comercio,1332.5750
+2014-10-01,San Bernardo (La Costa),hogares,1209.0120
+2014-10-01,Villa Gesell,comercio,4057.0780
+2014-10-01,Villa Gesell,hogares,4914.3330
+2014-10-01,Villa Gesell,industria,115.9720
+2014-11-01,San Bernardo (La Costa),comercio,1433.8390
+2014-11-01,San Bernardo (La Costa),hogares,1141.4050
+2014-11-01,San Bernardo (La Costa),industria,0.0030
+2014-11-01,Villa Gesell,comercio,4209.5050
+2014-11-01,Villa Gesell,hogares,4210.3800
+2014-11-01,Villa Gesell,industria,128.4180
+2014-12-01,San Bernardo (La Costa),comercio,2091.0090
+2014-12-01,San Bernardo (La Costa),hogares,1667.8970
+2014-12-01,Villa Gesell,comercio,5775.5730
+2014-12-01,Villa Gesell,hogares,5231.4810
+2014-12-01,Villa Gesell,industria,166.7890
+2015-01-01,San Bernardo (La Costa),comercio,4278.8690
+2015-01-01,San Bernardo (La Costa),hogares,5323.3410
+2015-01-01,Villa Gesell,comercio,8176.2100
+2015-01-01,Villa Gesell,hogares,8262.3310
+2015-01-01,Villa Gesell,industria,277.2330
+2015-02-01,San Bernardo (La Costa),comercio,3819.8910
+2015-02-01,San Bernardo (La Costa),hogares,4350.9060
+2015-02-01,San Bernardo (La Costa),industria,0.0020
+2015-02-01,Villa Gesell,comercio,6683.2480
+2015-02-01,Villa Gesell,hogares,7553.8180
+2015-02-01,Villa Gesell,industria,215.1310
+2015-03-01,San Bernardo (La Costa),comercio,2186.4350
+2015-03-01,San Bernardo (La Costa),hogares,1759.1370
+2015-03-01,San Bernardo (La Costa),industria,0.0010
+2015-03-01,Villa Gesell,comercio,5584.6930
+2015-03-01,Villa Gesell,hogares,5476.1180
+2015-03-01,Villa Gesell,industria,215.9340
+2015-04-01,San Bernardo (La Costa),comercio,1509.3180
+2015-04-01,San Bernardo (La Costa),hogares,1223.5920
+2015-04-01,Villa Gesell,comercio,4029.7800
+2015-04-01,Villa Gesell,hogares,4778.9330
+2015-04-01,Villa Gesell,industria,169.9200
+2015-05-01,San Bernardo (La Costa),comercio,1353.7770
+2015-05-01,San Bernardo (La Costa),hogares,1277.8630
+2015-05-01,Villa Gesell,comercio,4349.9200
+2015-05-01,Villa Gesell,hogares,5374.8590
+2015-05-01,Villa Gesell,industria,223.7350
+2015-06-01,San Bernardo (La Costa),comercio,1285.8250
+2015-06-01,San Bernardo (La Costa),hogares,1343.9770
+2015-06-01,Villa Gesell,comercio,4503.5230
+2015-06-01,Villa Gesell,hogares,5879.1470
+2015-06-01,Villa Gesell,industria,252.1730
+2015-07-01,San Bernardo (La Costa),comercio,1442.9200
+2015-07-01,San Bernardo (La Costa),hogares,1681.0300
+2015-07-01,San Bernardo (La Costa),industria,0.0010
+2015-07-01,Villa Gesell,comercio,5709.3830
+2015-07-01,Villa Gesell,hogares,6364.9700
+2015-07-01,Villa Gesell,industria,230.9420
+2015-08-01,San Bernardo (La Costa),comercio,1265.1190
+2015-08-01,San Bernardo (La Costa),hogares,1471.2400
+2015-08-01,Villa Gesell,comercio,4471.2120
+2015-08-01,Villa Gesell,hogares,6516.6080
+2015-08-01,Villa Gesell,industria,204.7890
+2015-09-01,San Bernardo (La Costa),comercio,1253.9980
+2015-09-01,San Bernardo (La Costa),hogares,1290.3960
+2015-09-01,Villa Gesell,comercio,4341.8010
+2015-09-01,Villa Gesell,hogares,5767.1420
+2015-09-01,Villa Gesell,industria,145.4870
+2015-10-01,San Bernardo (La Costa),comercio,1436.0900
+2015-10-01,San Bernardo (La Costa),hogares,1379.8360
+2015-10-01,Villa Gesell,comercio,4581.0780
+2015-10-01,Villa Gesell,hogares,6168.8170
+2015-10-01,Villa Gesell,industria,116.5390
+2015-11-01,San Bernardo (La Costa),comercio,1299.5850
+2015-11-01,San Bernardo (La Costa),hogares,1264.5050
+2015-11-01,San Bernardo (La Costa),industria,0.0010
+2015-11-01,Villa Gesell,comercio,3994.1480
+2015-11-01,Villa Gesell,hogares,4755.2860
+2015-11-01,Villa Gesell,industria,123.0230
+2015-12-01,San Bernardo (La Costa),comercio,2402.0850
+2015-12-01,San Bernardo (La Costa),hogares,2354.8500
+2015-12-01,San Bernardo (La Costa),industria,0.0010
+2015-12-01,Villa Gesell,comercio,5806.8940
+2015-12-01,Villa Gesell,hogares,5799.1880
+2015-12-01,Villa Gesell,industria,188.8600
+2016-01-01,San Bernardo (La Costa),comercio,4533.9060
+2016-01-01,San Bernardo (La Costa),hogares,5439.0960
+2016-01-01,San Bernardo (La Costa),industria,0.0010
+2016-01-01,Villa Gesell,comercio,8296.1880
+2016-01-01,Villa Gesell,hogares,8368.7790
+2016-01-01,Villa Gesell,industria,0.0010
+2016-02-01,San Bernardo (La Costa),comercio,3999.4320
+2016-02-01,San Bernardo (La Costa),hogares,4642.1050
+2016-02-01,San Bernardo (La Costa),industria,-0.0010
+2016-02-01,Villa Gesell,comercio,6747.4820
+2016-02-01,Villa Gesell,hogares,7834.0500
+2016-02-01,Villa Gesell,industria,242.7100
+2016-03-01,San Bernardo (La Costa),comercio,2073.4820
+2016-03-01,San Bernardo (La Costa),hogares,1671.6750
+2016-03-01,Villa Gesell,comercio,5001.9850
+2016-03-01,Villa Gesell,hogares,5551.9020
+2016-03-01,Villa Gesell,industria,175.3960
+2016-04-01,San Bernardo (La Costa),comercio,1484.8530
+2016-04-01,San Bernardo (La Costa),hogares,1127.5970
+2016-04-01,Villa Gesell,comercio,3957.4440
+2016-04-01,Villa Gesell,hogares,5075.9720
+2016-04-01,Villa Gesell,industria,182.0540
+2016-05-01,San Bernardo (La Costa),comercio,1355.4910
+2016-05-01,San Bernardo (La Costa),hogares,1485.1900
+2016-05-01,Villa Gesell,comercio,4670.1770
+2016-05-01,Villa Gesell,hogares,6005.0100
+2016-05-01,Villa Gesell,industria,242.1100
+2016-06-01,San Bernardo (La Costa),comercio,1411.0800
+2016-06-01,San Bernardo (La Costa),hogares,1493.9880
+2016-06-01,San Bernardo (La Costa),industria,-0.0020
+2016-06-01,Villa Gesell,comercio,4912.2260
+2016-06-01,Villa Gesell,hogares,6327.9310
+2016-06-01,Villa Gesell,industria,222.0690
+2016-07-01,San Bernardo (La Costa),comercio,1534.8250
+2016-07-01,San Bernardo (La Costa),hogares,1736.0110
+2016-07-01,Villa Gesell,comercio,5194.0730
+2016-07-01,Villa Gesell,hogares,7102.1310
+2016-07-01,Villa Gesell,industria,284.0020
+2016-08-01,San Bernardo (La Costa),comercio,1363.8130
+2016-08-01,San Bernardo (La Costa),hogares,1532.0450
+2016-08-01,Villa Gesell,comercio,4649.7390
+2016-08-01,Villa Gesell,hogares,6271.2280
+2016-08-01,Villa Gesell,industria,246.4030
+2016-09-01,San Bernardo (La Costa),comercio,1328.7620
+2016-09-01,San Bernardo (La Costa),hogares,1302.6400
+2016-09-01,Villa Gesell,comercio,3825.3360
+2016-09-01,Villa Gesell,hogares,5650.5360
+2016-09-01,Villa Gesell,industria,582.8370
+2016-10-01,San Bernardo (La Costa),comercio,1371.9310
+2016-10-01,San Bernardo (La Costa),hogares,1374.4080
+2016-10-01,San Bernardo (La Costa),industria,-0.0020
+2016-10-01,Villa Gesell,comercio,3691.8960
+2016-10-01,Villa Gesell,hogares,6050.1580
+2016-10-01,Villa Gesell,industria,168.6640
+2016-11-01,San Bernardo (La Costa),comercio,1493.0850
+2016-11-01,San Bernardo (La Costa),hogares,1257.9540
+2016-11-01,Villa Gesell,comercio,3753.4160
+2016-11-01,Villa Gesell,hogares,4358.6160
+2016-11-01,Villa Gesell,industria,547.8580
+2016-12-01,San Bernardo (La Costa),comercio,2184.8240
+2016-12-01,San Bernardo (La Costa),hogares,1956.3990
+2016-12-01,San Bernardo (La Costa),industria,154.3760
+2016-12-01,Villa Gesell,comercio,5584.5070
+2016-12-01,Villa Gesell,hogares,5446.4260
+2016-12-01,Villa Gesell,industria,218.5200
+2017-01-01,San Bernardo (La Costa),comercio,4030.2350
+2017-01-01,San Bernardo (La Costa),hogares,5045.3810
+2017-01-01,San Bernardo (La Costa),industria,225.4380
+2017-01-01,Villa Gesell,comercio,7789.3870
+2017-01-01,Villa Gesell,hogares,8185.6740
+2017-01-01,Villa Gesell,industria,233.8100
+2017-02-01,San Bernardo (La Costa),comercio,3621.8910
+2017-02-01,San Bernardo (La Costa),hogares,4363.1800
+2017-02-01,San Bernardo (La Costa),industria,242.5250
+2017-02-01,Villa Gesell,comercio,6365.7730
+2017-02-01,Villa Gesell,hogares,7057.8010
+2017-02-01,Villa Gesell,industria,173.6270
+2017-03-01,San Bernardo (La Costa),comercio,2201.3560
+2017-03-01,San Bernardo (La Costa),hogares,1919.4450
+2017-03-01,San Bernardo (La Costa),industria,156.0000
+2017-03-01,Villa Gesell,comercio,4521.1260
+2017-03-01,Villa Gesell,hogares,5553.5080
+2017-03-01,Villa Gesell,industria,176.4610
+2017-04-01,San Bernardo (La Costa),comercio,1476.6160
+2017-04-01,San Bernardo (La Costa),hogares,1194.7260
+2017-04-01,San Bernardo (La Costa),industria,173.1370
+2017-04-01,Villa Gesell,comercio,4287.0420
+2017-04-01,Villa Gesell,hogares,4916.7530
+2017-04-01,Villa Gesell,industria,212.3940
+2017-05-01,San Bernardo (La Costa),comercio,1372.8250
+2017-05-01,San Bernardo (La Costa),hogares,1192.0540
+2017-05-01,San Bernardo (La Costa),industria,75.9300
+2017-05-01,Villa Gesell,comercio,3932.0210
+2017-05-01,Villa Gesell,hogares,5619.6690
+2017-05-01,Villa Gesell,industria,192.4490
+2017-06-01,San Bernardo (La Costa),comercio,1354.9740
+2017-06-01,San Bernardo (La Costa),hogares,1339.1760
+2017-06-01,San Bernardo (La Costa),industria,73.5840
+2017-06-01,Villa Gesell,comercio,4447.5130
+2017-06-01,Villa Gesell,hogares,6282.5700
+2017-06-01,Villa Gesell,industria,189.4070
+2017-07-01,San Bernardo (La Costa),comercio,1613.1680
+2017-07-01,San Bernardo (La Costa),hogares,1536.6060
+2017-07-01,San Bernardo (La Costa),industria,127.4190
+2017-07-01,Villa Gesell,comercio,5066.4300
+2017-07-01,Villa Gesell,hogares,7175.9480
+2017-07-01,Villa Gesell,industria,198.6790
+2017-08-01,San Bernardo (La Costa),comercio,1347.6930
+2017-08-01,San Bernardo (La Costa),hogares,1445.4610
+2017-08-01,San Bernardo (La Costa),industria,181.3300
+2017-08-01,Villa Gesell,comercio,4317.3460
+2017-08-01,Villa Gesell,hogares,6601.6110
+2017-08-01,Villa Gesell,industria,168.3180
+2017-09-01,San Bernardo (La Costa),comercio,1247.4890
+2017-09-01,San Bernardo (La Costa),hogares,1252.9390
+2017-09-01,San Bernardo (La Costa),industria,161.7260
+2017-09-01,Villa Gesell,comercio,4069.1320
+2017-09-01,Villa Gesell,hogares,5551.6010
+2017-09-01,Villa Gesell,industria,168.6560
+2017-10-01,San Bernardo (La Costa),comercio,1399.2360
+2017-10-01,San Bernardo (La Costa),hogares,1164.1610
+2017-10-01,San Bernardo (La Costa),industria,102.9160
+2017-10-01,Villa Gesell,comercio,3862.8370
+2017-10-01,Villa Gesell,hogares,5265.7710
+2017-10-01,Villa Gesell,industria,179.1260
+2017-11-01,San Bernardo (La Costa),comercio,1408.0230
+2017-11-01,San Bernardo (La Costa),hogares,1178.1680
+2017-11-01,San Bernardo (La Costa),industria,147.0220
+2017-11-01,Villa Gesell,comercio,4170.8950
+2017-11-01,Villa Gesell,hogares,4490.9920
+2017-11-01,Villa Gesell,industria,141.2380
+2017-12-01,San Bernardo (La Costa),comercio,2237.2370
+2017-12-01,San Bernardo (La Costa),hogares,1536.6580
+2017-12-01,San Bernardo (La Costa),industria,144.5740
+2017-12-01,Villa Gesell,comercio,5131.2880
+2017-12-01,Villa Gesell,hogares,5656.2610
+2017-12-01,Villa Gesell,industria,153.6000
+2018-01-01,San Bernardo (La Costa),comercio,4290.5450
+2018-01-01,San Bernardo (La Costa),hogares,4875.4870
+2018-01-01,San Bernardo (La Costa),industria,200.9330
+2018-01-01,Villa Gesell,comercio,7573.0210
+2018-01-01,Villa Gesell,hogares,8643.9150
+2018-01-01,Villa Gesell,industria,225.1160
+2018-02-01,San Bernardo (La Costa),comercio,3329.3860
+2018-02-01,San Bernardo (La Costa),hogares,3942.1650
+2018-02-01,San Bernardo (La Costa),industria,196.7990
+2018-02-01,Villa Gesell,comercio,6393.3920
+2018-02-01,Villa Gesell,hogares,7980.4090
+2018-02-01,Villa Gesell,industria,167.8970
+2018-03-01,San Bernardo (La Costa),comercio,2056.7400
+2018-03-01,San Bernardo (La Costa),hogares,1691.3080
+2018-03-01,San Bernardo (La Costa),industria,143.4410
+2018-03-01,Villa Gesell,comercio,4763.0350
+2018-03-01,Villa Gesell,hogares,5964.7610
+2018-03-01,Villa Gesell,industria,170.5470
+2018-04-01,San Bernardo (La Costa),comercio,1506.8470
+2018-04-01,San Bernardo (La Costa),hogares,1195.1740
+2018-04-01,San Bernardo (La Costa),industria,151.9250
+2018-04-01,Villa Gesell,comercio,3308.1580
+2018-04-01,Villa Gesell,hogares,5694.5710
+2018-04-01,Villa Gesell,industria,145.2910
+2018-05-01,San Bernardo (La Costa),comercio,1524.7160
+2018-05-01,San Bernardo (La Costa),hogares,1177.2110
+2018-05-01,San Bernardo (La Costa),industria,117.6190
+2018-05-01,Villa Gesell,comercio,4156.4160
+2018-05-01,Villa Gesell,hogares,5671.1910
+2018-05-01,Villa Gesell,industria,186.1640
+2018-06-01,San Bernardo (La Costa),comercio,1414.4320
+2018-06-01,San Bernardo (La Costa),hogares,1402.7370
+2018-06-01,San Bernardo (La Costa),industria,41.6570
+2018-06-01,Villa Gesell,comercio,4334.8180
+2018-06-01,Villa Gesell,hogares,6768.6400
+2018-06-01,Villa Gesell,industria,191.2350
+2018-07-01,San Bernardo (La Costa),comercio,1469.7660
+2018-07-01,San Bernardo (La Costa),hogares,1751.8850
+2018-07-01,San Bernardo (La Costa),industria,149.4730
+2018-07-01,Villa Gesell,comercio,4998.7620
+2018-07-01,Villa Gesell,hogares,7928.6790
+2018-07-01,Villa Gesell,industria,200.2280
+2018-08-01,San Bernardo (La Costa),comercio,1275.7170
+2018-08-01,San Bernardo (La Costa),hogares,1498.9830
+2018-08-01,San Bernardo (La Costa),industria,173.9780
+2018-08-01,Villa Gesell,comercio,3565.4950
+2018-08-01,Villa Gesell,hogares,7911.3690
+2018-08-01,Villa Gesell,industria,122.4630
+2018-09-01,San Bernardo (La Costa),comercio,1173.2100
+2018-09-01,San Bernardo (La Costa),hogares,1231.8550
+2018-09-01,San Bernardo (La Costa),industria,71.0620
+2018-09-01,Villa Gesell,comercio,3290.9090
+2018-09-01,Villa Gesell,hogares,6190.9880
+2018-09-01,Villa Gesell,industria,126.4120
+2018-10-01,San Bernardo (La Costa),comercio,1303.2440
+2018-10-01,San Bernardo (La Costa),hogares,1172.0560
+2018-10-01,San Bernardo (La Costa),industria,117.6190
+2018-10-01,Villa Gesell,comercio,3228.6840
+2018-10-01,Villa Gesell,hogares,6153.3010
+2018-10-01,Villa Gesell,industria,113.6150
+2018-11-01,San Bernardo (La Costa),comercio,1327.2490
+2018-11-01,San Bernardo (La Costa),hogares,1197.7400
+2018-11-01,San Bernardo (La Costa),industria,137.2230
+2018-11-01,Villa Gesell,comercio,3165.2180
+2018-11-01,Villa Gesell,hogares,5403.5890
+2018-11-01,Villa Gesell,industria,84.4140
+2018-12-01,San Bernardo (La Costa),comercio,1536.4860
+2018-12-01,San Bernardo (La Costa),hogares,1942.0560
+2018-12-01,San Bernardo (La Costa),industria,137.2200
+2018-12-01,Villa Gesell,comercio,3836.8010
+2018-12-01,Villa Gesell,hogares,6534.1750
+2018-12-01,Villa Gesell,industria,102.0410
+2019-01-01,San Bernardo (La Costa),comercio,3896.4390
+2019-01-01,San Bernardo (La Costa),hogares,4241.5110
+2019-01-01,San Bernardo (La Costa),industria,169.0760
+2019-01-01,Villa Gesell,comercio,5752.8710
+2019-01-01,Villa Gesell,hogares,9951.7670
+2019-01-01,Villa Gesell,industria,175.1550
+2019-02-01,San Bernardo (La Costa),comercio,2586.2150
+2019-02-01,San Bernardo (La Costa),hogares,2984.0400
+2019-02-01,San Bernardo (La Costa),industria,193.5810
+2019-02-01,Villa Gesell,comercio,5979.4400
+2019-02-01,Villa Gesell,hogares,7563.4720
+2019-02-01,Villa Gesell,industria,180.4700
+2019-03-01,San Bernardo (La Costa),comercio,1753.6620
+2019-03-01,San Bernardo (La Costa),hogares,1718.9820
+2019-03-01,San Bernardo (La Costa),industria,133.4530
+2019-03-01,Villa Gesell,comercio,3774.1490
+2019-03-01,Villa Gesell,hogares,6269.1420
+2019-03-01,Villa Gesell,industria,162.1100
+2019-04-01,San Bernardo (La Costa),comercio,1351.5350
+2019-04-01,San Bernardo (La Costa),hogares,1170.6530
+2019-04-01,San Bernardo (La Costa),industria,153.0450
+2019-04-01,Villa Gesell,comercio,3001.2750
+2019-04-01,Villa Gesell,hogares,5214.6480
+2019-04-01,Villa Gesell,industria,179.1730
+2019-05-01,San Bernardo (La Costa),comercio,1312.6420
+2019-05-01,San Bernardo (La Costa),hogares,1163.1940
+2019-05-01,San Bernardo (La Costa),industria,98.0140
+2019-05-01,Villa Gesell,comercio,2588.6930
+2019-05-01,Villa Gesell,hogares,6456.7010
+2019-05-01,Villa Gesell,industria,176.7250
+2019-06-01,San Bernardo (La Costa),comercio,1278.5430
+2019-06-01,San Bernardo (La Costa),hogares,1299.7810
+2019-06-01,San Bernardo (La Costa),industria,49.0080
+2019-06-01,Villa Gesell,comercio,2826.4530
+2019-06-01,Villa Gesell,hogares,6893.6720
+2019-06-01,Villa Gesell,industria,149.0960
+2019-07-01,San Bernardo (La Costa),comercio,1450.7830
+2019-07-01,San Bernardo (La Costa),hogares,1749.0310
+2019-07-01,San Bernardo (La Costa),industria,127.4210
+2019-07-01,Villa Gesell,comercio,2278.7620
+2019-07-01,Villa Gesell,hogares,5731.9280
+2019-07-01,Villa Gesell,industria,139.2500
+2019-08-01,San Bernardo (La Costa),comercio,1215.9320
+2019-08-01,San Bernardo (La Costa),hogares,1538.0550
+2019-08-01,San Bernardo (La Costa),industria,44.1070
+2019-08-01,Villa Gesell,comercio,3431.5590
+2019-08-01,Villa Gesell,hogares,7692.7620
+2019-08-01,Villa Gesell,industria,172.2950
+2019-09-01,San Bernardo (La Costa),comercio,1021.6960
+2019-09-01,San Bernardo (La Costa),hogares,1023.7490
+2019-09-01,San Bernardo (La Costa),industria,49.1100
+2019-09-01,Villa Gesell,comercio,3236.9940
+2019-09-01,Villa Gesell,hogares,6506.1090
+2019-09-01,Villa Gesell,industria,177.7520
+2019-10-01,San Bernardo (La Costa),comercio,865.8110
+2019-10-01,San Bernardo (La Costa),hogares,862.7170
+2019-10-01,San Bernardo (La Costa),industria,50.8020
+2019-10-01,Villa Gesell,comercio,3040.0730
+2019-10-01,Villa Gesell,hogares,6221.5970
+2019-10-01,Villa Gesell,industria,167.5640
+2019-11-01,San Bernardo (La Costa),comercio,1147.6040
+2019-11-01,San Bernardo (La Costa),hogares,992.9910
+2019-11-01,San Bernardo (La Costa),industria,63.0830
+2019-11-01,Villa Gesell,comercio,3239.9580
+2019-11-01,Villa Gesell,hogares,4836.2240
+2019-11-01,Villa Gesell,industria,181.6040
+2019-12-01,San Bernardo (La Costa),comercio,1451.9900
+2019-12-01,San Bernardo (La Costa),hogares,1213.8660
+2019-12-01,San Bernardo (La Costa),industria,63.0680
+2019-12-01,Villa Gesell,comercio,4222.5990
+2019-12-01,Villa Gesell,hogares,5970.6790
+2019-12-01,Villa Gesell,industria,172.2990
+2020-01-01,San Bernardo (La Costa),comercio,3375.7130
+2020-01-01,San Bernardo (La Costa),hogares,3366.1540
+2020-01-01,San Bernardo (La Costa),industria,101.1840
+2020-01-01,Villa Gesell,comercio,6699.8230
+2020-01-01,Villa Gesell,hogares,9379.9680
+2020-02-01,San Bernardo (La Costa),comercio,2748.0840
+2020-02-01,San Bernardo (La Costa),hogares,3316.2760
+2020-02-01,San Bernardo (La Costa),industria,90.6650
+2020-02-01,Villa Gesell,comercio,6586.3090
+2020-02-01,Villa Gesell,hogares,7909.0140
+2020-03-01,San Bernardo (La Costa),comercio,1602.7280
+2020-03-01,San Bernardo (La Costa),hogares,1613.3930
+2020-03-01,San Bernardo (La Costa),industria,58.4930
+2020-03-01,Villa Gesell,comercio,3847.4380
+2020-03-01,Villa Gesell,hogares,5830.7680
+2020-04-01,San Bernardo (La Costa),comercio,953.5450
+2020-04-01,San Bernardo (La Costa),hogares,1208.2040
+2020-04-01,San Bernardo (La Costa),industria,14.8230
+2020-04-01,Villa Gesell,comercio,2881.8270
+2020-04-01,Villa Gesell,hogares,5013.5900
+2020-05-01,San Bernardo (La Costa),comercio,1029.7300
+2020-05-01,San Bernardo (La Costa),hogares,1389.3950
+2020-05-01,San Bernardo (La Costa),industria,13.4770
+2020-05-01,Villa Gesell,comercio,2676.5330
+2020-05-01,Villa Gesell,hogares,6689.3110
+2020-06-01,San Bernardo (La Costa),comercio,1083.3510
+2020-06-01,San Bernardo (La Costa),hogares,1565.6740
+2020-06-01,San Bernardo (La Costa),industria,17.1530
+2020-06-01,Villa Gesell,comercio,2880.7480
+2020-06-01,Villa Gesell,hogares,7357.8870
+2020-07-01,San Bernardo (La Costa),comercio,1118.6040
+2020-07-01,San Bernardo (La Costa),hogares,1862.9320
+2020-07-01,San Bernardo (La Costa),industria,18.3780
+2020-07-01,Villa Gesell,comercio,3088.5250
+2020-07-01,Villa Gesell,hogares,8453.8420
+2020-08-01,San Bernardo (La Costa),comercio,1179.9390
+2020-08-01,San Bernardo (La Costa),hogares,1614.9560
+2020-08-01,San Bernardo (La Costa),industria,18.3780
+2020-08-01,Villa Gesell,comercio,3240.9230
+2020-08-01,Villa Gesell,hogares,7322.1880
+2020-09-01,San Bernardo (La Costa),comercio,1081.1830
+2020-09-01,San Bernardo (La Costa),hogares,1404.5740
+2020-09-01,San Bernardo (La Costa),industria,15.9270
+2020-09-01,Villa Gesell,comercio,2648.3610
+2020-09-01,Villa Gesell,hogares,6937.1580
+2020-10-01,San Bernardo (La Costa),comercio,1047.6690
+2020-10-01,San Bernardo (La Costa),hogares,1277.5470
+2020-10-01,San Bernardo (La Costa),industria,14.7020
+2020-10-01,Villa Gesell,comercio,2762.2340
+2020-10-01,Villa Gesell,hogares,5964.7780
+2020-11-01,San Bernardo (La Costa),comercio,1070.6410
+2020-11-01,San Bernardo (La Costa),hogares,1196.0470
+2020-11-01,San Bernardo (La Costa),industria,15.9270
+2020-11-01,Villa Gesell,comercio,2785.1240
+2020-11-01,Villa Gesell,hogares,4825.5170
+2020-12-01,San Bernardo (La Costa),comercio,1611.6380
+2020-12-01,San Bernardo (La Costa),hogares,1635.7050
+2020-12-01,San Bernardo (La Costa),industria,49.0090
+2020-12-01,Villa Gesell,comercio,4319.2000
+2020-12-01,Villa Gesell,hogares,6210.2800
+2021-01-01,San Bernardo (La Costa),comercio,2357.6840
+2021-01-01,San Bernardo (La Costa),hogares,2636.8850
+2021-01-01,San Bernardo (La Costa),industria,67.3860
+2021-01-01,Villa Gesell,comercio,5480.2270
+2021-01-01,Villa Gesell,hogares,8299.9110
+2021-02-01,San Bernardo (La Costa),comercio,2032.1480
+2021-02-01,San Bernardo (La Costa),hogares,2351.4950
+2021-02-01,San Bernardo (La Costa),industria,67.7620
+2021-02-01,Villa Gesell,comercio,4744.1420
+2021-02-01,Villa Gesell,hogares,6990.2750
+2021-03-01,San Bernardo (La Costa),comercio,1712.5730
+2021-03-01,San Bernardo (La Costa),hogares,1616.9070
+2021-03-01,San Bernardo (La Costa),industria,65.8120
+2021-03-01,Villa Gesell,comercio,4053.7560
+2021-03-01,Villa Gesell,hogares,6225.3640
+2021-04-01,San Bernardo (La Costa),comercio,1255.5200
+2021-04-01,San Bernardo (La Costa),hogares,1283.5000
+2021-04-01,San Bernardo (La Costa),industria,39.2060
+2021-04-01,Villa Gesell,comercio,3177.3470
+2021-04-01,Villa Gesell,hogares,5377.5300
+2021-04-01,Villa Gesell,industria,-0.0010
+2021-05-01,San Bernardo (La Costa),comercio,1267.5390
+2021-05-01,San Bernardo (La Costa),hogares,1494.9280
+2021-05-01,San Bernardo (La Costa),industria,11.0270
+2021-05-01,Villa Gesell,comercio,2885.5310
+2021-05-01,Villa Gesell,hogares,7714.2010
+2021-06-01,San Bernardo (La Costa),comercio,1233.6770
+2021-06-01,San Bernardo (La Costa),hogares,1742.3980
+2021-06-01,San Bernardo (La Costa),industria,9.8000
+2021-06-01,Villa Gesell,comercio,2984.4940
+2021-06-01,Villa Gesell,hogares,8563.4530
+2021-07-01,San Bernardo (La Costa),comercio,1412.6730
+2021-07-01,San Bernardo (La Costa),hogares,2162.8210
+2021-07-01,San Bernardo (La Costa),industria,12.2520
+2021-07-01,Villa Gesell,comercio,3470.1550
+2021-07-01,Villa Gesell,hogares,10243.8530
+2021-07-01,Villa Gesell,industria,-0.0010
+2021-08-01,San Bernardo (La Costa),comercio,1327.1840
+2021-08-01,San Bernardo (La Costa),hogares,1974.1580
+2021-08-01,San Bernardo (La Costa),industria,13.4770
+2021-08-01,Villa Gesell,comercio,3903.4300
+2021-08-01,Villa Gesell,hogares,8677.3480
+2021-09-01,San Bernardo (La Costa),comercio,1208.9410
+2021-09-01,San Bernardo (La Costa),hogares,1639.5650
+2021-09-01,San Bernardo (La Costa),industria,49.0080
+2021-09-01,Villa Gesell,comercio,3190.2610
+2021-09-01,Villa Gesell,hogares,7404.4190
+2021-10-01,San Bernardo (La Costa),comercio,1412.8320
+2021-10-01,San Bernardo (La Costa),hogares,1556.4110
+2021-10-01,San Bernardo (La Costa),industria,76.7790
+2021-10-01,Villa Gesell,comercio,3412.7950
+2021-10-01,Villa Gesell,hogares,7257.2930
+2021-11-01,San Bernardo (La Costa),comercio,1440.5490
+2021-11-01,San Bernardo (La Costa),hogares,1378.9150
+2021-11-01,San Bernardo (La Costa),industria,72.2870
+2021-11-01,Villa Gesell,comercio,3621.5910
+2021-11-01,Villa Gesell,hogares,5770.2220
+2021-12-01,San Bernardo (La Costa),comercio,1940.1090
+2021-12-01,San Bernardo (La Costa),hogares,1816.6380
+2021-12-01,San Bernardo (La Costa),industria,73.5080
+2021-12-01,Villa Gesell,comercio,4849.6530
+2021-12-01,Villa Gesell,hogares,6767.7250
+2021-12-01,Villa Gesell,industria,-0.0010
+2022-01-01,San Bernardo (La Costa),comercio,3043.1110
+2022-01-01,San Bernardo (La Costa),hogares,3861.9550
+2022-01-01,San Bernardo (La Costa),industria,89.4390
+2022-01-01,Villa Gesell,comercio,6729.7180
+2022-01-01,Villa Gesell,hogares,10509.9530
+2022-02-01,San Bernardo (La Costa),comercio,2423.6530
+2022-02-01,San Bernardo (La Costa),hogares,3100.2080
+2022-02-01,San Bernardo (La Costa),industria,61.2590
+2022-02-01,Villa Gesell,comercio,5574.1580
+2022-02-01,Villa Gesell,hogares,8275.1890
+2022-02-01,Villa Gesell,industria,-0.0010
+2022-03-01,San Bernardo (La Costa),comercio,1779.7070
+2022-03-01,San Bernardo (La Costa),hogares,1885.3620
+2022-03-01,San Bernardo (La Costa),industria,75.9630
+2022-03-01,Villa Gesell,comercio,4399.0720
+2022-03-01,Villa Gesell,hogares,6759.7230
+2022-03-01,Villa Gesell,industria,-0.0010
+2022-04-01,San Bernardo (La Costa),comercio,1462.7200
+2022-04-01,San Bernardo (La Costa),hogares,1514.4350
+2022-04-01,San Bernardo (La Costa),industria,66.1600
+2022-04-01,Villa Gesell,comercio,3743.0050
+2022-04-01,Villa Gesell,hogares,6699.1560
+2022-05-01,San Bernardo (La Costa),comercio,1402.6890
+2022-05-01,San Bernardo (La Costa),hogares,1674.9220
+2022-05-01,San Bernardo (La Costa),industria,58.8080
+2022-05-01,Villa Gesell,comercio,3660.2030
+2022-05-01,Villa Gesell,hogares,8284.8860
+2022-06-01,San Bernardo (La Costa),comercio,1512.0850
+2022-06-01,San Bernardo (La Costa),hogares,2115.7650
+2022-06-01,San Bernardo (La Costa),industria,12.2510
+2022-06-01,Villa Gesell,comercio,3795.7530
+2022-06-01,Villa Gesell,hogares,10305.9240
+2022-07-01,San Bernardo (La Costa),comercio,1542.9700
+2022-07-01,San Bernardo (La Costa),hogares,2326.5450
+2022-07-01,San Bernardo (La Costa),industria,15.9280
+2022-07-01,Villa Gesell,comercio,3969.6700
+2022-07-01,Villa Gesell,hogares,10997.4620
+2022-08-01,San Bernardo (La Costa),comercio,1416.3170
+2022-08-01,San Bernardo (La Costa),hogares,1946.7950
+2022-08-01,San Bernardo (La Costa),industria,18.3780
+2022-08-01,Villa Gesell,comercio,3853.0230
+2022-08-01,Villa Gesell,hogares,9341.1590
+2022-09-01,San Bernardo (La Costa),comercio,1316.3270
+2022-09-01,San Bernardo (La Costa),hogares,1571.8390
+2022-09-01,San Bernardo (La Costa),industria,49.0050
+2022-09-01,Villa Gesell,comercio,1743.6370
+2022-09-01,Villa Gesell,hogares,9386.2020
+2022-09-01,Villa Gesell,industria,-0.0010
+2022-10-01,San Bernardo (La Costa),comercio,1450.6190
+2022-10-01,San Bernardo (La Costa),hogares,1664.5810
+2022-10-01,San Bernardo (La Costa),industria,84.5380
+2022-10-01,Villa Gesell,comercio,3452.0800
+2022-10-01,Villa Gesell,hogares,7943.8450
+2022-10-01,Villa Gesell,industria,-0.0020
+2022-11-01,San Bernardo (La Costa),comercio,1534.8380
+2022-11-01,San Bernardo (La Costa),hogares,1393.0140
+2022-11-01,San Bernardo (La Costa),industria,69.8370
+2022-11-01,Villa Gesell,comercio,4973.8950
+2022-11-01,Villa Gesell,hogares,4709.2590
+2022-11-01,Villa Gesell,industria,-0.0020
+2022-12-01,San Bernardo (La Costa),comercio,1739.9900
+2022-12-01,San Bernardo (La Costa),hogares,2175.9670
+2022-12-01,San Bernardo (La Costa),industria,69.9560
+2022-12-01,Villa Gesell,comercio,4564.4470
+2022-12-01,Villa Gesell,hogares,7226.5730
+2022-12-01,Villa Gesell,industria,0.0010
+2023-01-01,San Bernardo (La Costa),comercio,3215.9640
+2023-01-01,San Bernardo (La Costa),hogares,4085.8950
+2023-01-01,San Bernardo (La Costa),industria,95.5630
+2023-01-01,Villa Gesell,comercio,6926.0550
+2023-01-01,Villa Gesell,hogares,10407.9670
+2023-02-01,San Bernardo (La Costa),comercio,2657.2510
+2023-02-01,San Bernardo (La Costa),hogares,3429.0010
+2023-02-01,San Bernardo (La Costa),industria,83.3110
+2023-02-01,Villa Gesell,comercio,6432.0270
+2023-02-01,Villa Gesell,hogares,8527.1210
+2023-02-01,Villa Gesell,industria,-0.0010
+2023-03-01,San Bernardo (La Costa),comercio,2032.6190
+2023-03-01,San Bernardo (La Costa),hogares,2144.0320
+2023-03-01,San Bernardo (La Costa),industria,78.4150
+2023-03-01,Villa Gesell,comercio,4980.1440
+2023-03-01,Villa Gesell,hogares,7238.0580
+2023-04-01,San Bernardo (La Costa),comercio,1533.4210
+2023-04-01,San Bernardo (La Costa),hogares,1493.9340
+2023-04-01,San Bernardo (La Costa),industria,69.8360
+2023-04-01,Villa Gesell,comercio,3724.1500
+2023-04-01,Villa Gesell,hogares,6721.6040
+2023-04-01,Villa Gesell,industria,-0.0020
+2023-05-01,San Bernardo (La Costa),comercio,1521.1850
+2023-05-01,San Bernardo (La Costa),hogares,1618.0320
+2023-05-01,San Bernardo (La Costa),industria,64.7240
+2023-05-01,Villa Gesell,comercio,3658.8720
+2023-05-01,Villa Gesell,hogares,8289.4020
+2023-06-01,San Bernardo (La Costa),comercio,1498.9490
+2023-06-01,San Bernardo (La Costa),hogares,1958.5890
+2023-06-01,San Bernardo (La Costa),industria,25.7270
+2023-06-01,Villa Gesell,comercio,5873.8530
+2023-06-01,Villa Gesell,hogares,7601.3310
+2023-07-01,San Bernardo (La Costa),comercio,1603.3840
+2023-07-01,San Bernardo (La Costa),hogares,2384.3360
+2023-07-01,San Bernardo (La Costa),industria,88.2130
+2023-07-01,Villa Gesell,comercio,4038.4930
+2023-07-01,Villa Gesell,hogares,11084.9210
+2023-08-01,San Bernardo (La Costa),comercio,1500.7840
+2023-08-01,San Bernardo (La Costa),hogares,2063.1720
+2023-08-01,San Bernardo (La Costa),industria,114.0130
+2023-08-01,Villa Gesell,comercio,3799.0700
+2023-08-01,Villa Gesell,hogares,9665.9890
+2023-08-01,Villa Gesell,industria,-0.0010
+2023-09-01,San Bernardo (La Costa),comercio,1453.6590
+2023-09-01,San Bernardo (La Costa),hogares,1786.0560
+2023-09-01,San Bernardo (La Costa),industria,67.8820
+2023-09-01,Villa Gesell,comercio,3503.8890
+2023-09-01,Villa Gesell,hogares,8714.3530
+2023-09-01,Villa Gesell,industria,-0.0050
+2023-10-01,San Bernardo (La Costa),comercio,1506.1610
+2023-10-01,San Bernardo (La Costa),hogares,1646.5890
+2023-10-01,San Bernardo (La Costa),industria,89.2070
+2023-10-01,Villa Gesell,comercio,3634.9360
+2023-10-01,Villa Gesell,hogares,7946.4500
+2023-10-01,Villa Gesell,industria,-0.0020
+2023-11-01,San Bernardo (La Costa),comercio,1469.8620
+2023-11-01,San Bernardo (La Costa),hogares,1419.4700
+2023-11-01,San Bernardo (La Costa),industria,69.3540
+2023-11-01,Villa Gesell,comercio,3757.1200
+2023-11-01,Villa Gesell,hogares,6155.7980
+2023-11-01,Villa Gesell,industria,-0.0020
+2023-12-01,San Bernardo (La Costa),comercio,1898.3070
+2023-12-01,San Bernardo (La Costa),hogares,1898.0640
+2023-12-01,San Bernardo (La Costa),industria,73.8640
+2023-12-01,Villa Gesell,comercio,4163.8400
+2023-12-01,Villa Gesell,hogares,7424.9130
+2023-12-01,Villa Gesell,industria,-0.0010
+2024-01-01,San Bernardo (La Costa),comercio,3137.4000
+2024-01-01,San Bernardo (La Costa),hogares,3797.8990
+2024-01-01,San Bernardo (La Costa),industria,104.4260
+2024-01-01,Villa Gesell,comercio,6046.1790
+2024-01-01,Villa Gesell,hogares,11101.5460
+2024-01-01,Villa Gesell,industria,-0.0020
+2024-02-01,San Bernardo (La Costa),comercio,2771.3380
+2024-02-01,San Bernardo (La Costa),hogares,3355.3700
+2024-02-01,Villa Gesell,comercio,5891.8040
+2024-02-01,Villa Gesell,hogares,9362.7230
+2024-02-01,Villa Gesell,industria,0.0020
+2024-03-01,San Bernardo (La Costa),comercio,2064.2410
+2024-03-01,San Bernardo (La Costa),hogares,1938.9870
+2024-03-01,Villa Gesell,comercio,4395.9120
+2024-03-01,Villa Gesell,hogares,7186.5840
+2024-03-01,Villa Gesell,industria,-0.0020
+2024-04-01,San Bernardo (La Costa),comercio,1368.8380
+2024-04-01,San Bernardo (La Costa),hogares,1509.6910
+2024-04-01,San Bernardo (La Costa),industria,-0.0030
+2024-04-01,Villa Gesell,comercio,3425.8390
+2024-04-01,Villa Gesell,hogares,6684.2680
+2024-04-01,Villa Gesell,industria,-0.0020
+2024-05-01,San Bernardo (La Costa),comercio,1588.8660
+2024-05-01,San Bernardo (La Costa),hogares,1694.1790
+2024-05-01,San Bernardo (La Costa),industria,0.0010
+2024-05-01,Villa Gesell,comercio,3198.7640
+2024-05-01,Villa Gesell,hogares,9211.7190
+2024-05-01,Villa Gesell,industria,-0.0030
+2024-06-01,San Bernardo (La Costa),comercio,1520.9850
+2024-06-01,San Bernardo (La Costa),hogares,1847.3520
+2024-06-01,San Bernardo (La Costa),industria,-0.0020
+2024-06-01,Villa Gesell,comercio,3123.4270
+2024-06-01,Villa Gesell,hogares,9649.0790
+2024-06-01,Villa Gesell,industria,-0.0030
+2024-07-01,San Bernardo (La Costa),comercio,1784.8370
+2024-07-01,San Bernardo (La Costa),hogares,2268.5720
+2024-07-01,San Bernardo (La Costa),industria,-0.0020
+2024-07-01,Villa Gesell,comercio,3428.2570
+2024-07-01,Villa Gesell,hogares,11567.8230
+2024-07-01,Villa Gesell,industria,-0.0020
+2024-08-01,San Bernardo (La Costa),comercio,1577.9460
+2024-08-01,San Bernardo (La Costa),hogares,1900.0650
+2024-08-01,Villa Gesell,comercio,3253.9420
+2024-08-01,Villa Gesell,hogares,9743.0280
+2024-09-01,San Bernardo (La Costa),comercio,1321.0690
+2024-09-01,San Bernardo (La Costa),hogares,1554.6450
+2024-09-01,San Bernardo (La Costa),industria,-0.0040
+2024-09-01,Villa Gesell,comercio,3655.0810
+2024-09-01,Villa Gesell,hogares,6883.8300
+2024-09-01,Villa Gesell,industria,0.0010
+2024-10-01,San Bernardo (La Costa),comercio,1433.1870
+2024-10-01,San Bernardo (La Costa),hogares,1521.7140
+2024-10-01,Villa Gesell,comercio,3688.1300
+2024-10-01,Villa Gesell,hogares,6590.0090
+2024-10-01,Villa Gesell,industria,-0.0010
+2024-11-01,San Bernardo (La Costa),comercio,1508.9390
+2024-11-01,San Bernardo (La Costa),hogares,1443.6260
+2024-11-01,San Bernardo (La Costa),industria,-0.0020
+2024-11-01,Villa Gesell,comercio,3699.8050
+2024-11-01,Villa Gesell,hogares,5648.9370
+2024-12-01,San Bernardo (La Costa),comercio,1924.0370
+2024-12-01,San Bernardo (La Costa),hogares,1858.3710
+2024-12-01,Villa Gesell,comercio,4601.3710
+2024-12-01,Villa Gesell,hogares,6785.3700
+2024-12-01,Villa Gesell,industria,-0.0020
+2025-01-01,San Bernardo (La Costa),comercio,3076.9710
+2025-01-01,San Bernardo (La Costa),hogares,3928.3740
+2025-01-01,San Bernardo (La Costa),industria,-0.0010
+2025-01-01,Villa Gesell,comercio,6752.1280
+2025-01-01,Villa Gesell,hogares,10083.6430
+2025-01-01,Villa Gesell,industria,-0.0010
+2025-02-01,San Bernardo (La Costa),comercio,2781.5400
+2025-02-01,San Bernardo (La Costa),hogares,3159.5600
+2025-02-01,San Bernardo (La Costa),industria,-0.0010
+2025-02-01,Villa Gesell,comercio,6236.0370
+2025-02-01,Villa Gesell,hogares,8537.2080
+2025-02-01,Villa Gesell,industria,-0.0010
+2025-03-01,San Bernardo (La Costa),comercio,2102.6010
+2025-03-01,San Bernardo (La Costa),hogares,1989.7550
+2025-03-01,San Bernardo (La Costa),industria,-0.0020
+2025-03-01,Villa Gesell,comercio,4738.1780
+2025-03-01,Villa Gesell,hogares,6751.8050
+2025-04-01,San Bernardo (La Costa),comercio,1544.9880
+2025-04-01,San Bernardo (La Costa),hogares,1579.2440
+2025-04-01,Villa Gesell,comercio,3898.5860
+2025-04-01,Villa Gesell,hogares,6694.8700
+2025-04-01,Villa Gesell,industria,-0.0020
+2025-05-01,San Bernardo (La Costa),comercio,1483.8070
+2025-05-01,San Bernardo (La Costa),hogares,1573.3340
+2025-05-01,San Bernardo (La Costa),industria,-0.0010
+2025-05-01,Villa Gesell,comercio,3529.0740
+2025-05-01,Villa Gesell,hogares,7803.3950
+2025-05-01,Villa Gesell,industria,-0.0030
+2025-06-01,San Bernardo (La Costa),comercio,1575.1470
+2025-06-01,San Bernardo (La Costa),hogares,2027.8030
+2025-06-01,San Bernardo (La Costa),industria,-0.0020
+2025-06-01,Villa Gesell,comercio,4034.1120
+2025-06-01,Villa Gesell,hogares,9374.9540
+2025-06-01,Villa Gesell,industria,-0.0040
+2025-07-01,San Bernardo (La Costa),comercio,1680.5590
+2025-07-01,San Bernardo (La Costa),hogares,2382.1720
+2025-07-01,San Bernardo (La Costa),industria,0.0020
+2025-07-01,Villa Gesell,comercio,4046.8120
+2025-07-01,Villa Gesell,hogares,10675.7020
+2025-08-01,San Bernardo (La Costa),comercio,1505.1770
+2025-08-01,San Bernardo (La Costa),hogares,2066.3730
+2025-08-01,San Bernardo (La Costa),industria,-0.0030
+2025-08-01,Villa Gesell,comercio,3940.9440
+2025-08-01,Villa Gesell,hogares,9273.0850
+2025-08-01,Villa Gesell,industria,-0.0020
+2025-09-01,San Bernardo (La Costa),comercio,1434.9590
+2025-09-01,San Bernardo (La Costa),hogares,1738.5340
+2025-09-01,San Bernardo (La Costa),industria,-0.0010
+2025-09-01,Villa Gesell,comercio,3638.8720
+2025-09-01,Villa Gesell,hogares,7916.6060
+2025-09-01,Villa Gesell,industria,-0.0030
+2025-10-01,San Bernardo (La Costa),comercio,1425.6280
+2025-10-01,San Bernardo (La Costa),hogares,1564.3090
+2025-10-01,San Bernardo (La Costa),industria,-0.0010
+2025-10-01,Villa Gesell,comercio,3537.5860
+2025-10-01,Villa Gesell,hogares,6621.0720
+2025-10-01,Villa Gesell,industria,-0.0030
+2025-11-01,San Bernardo (La Costa),comercio,1496.5410
+2025-11-01,San Bernardo (La Costa),hogares,1629.6670
+2025-11-01,Villa Gesell,comercio,3597.9690
+2025-11-01,Villa Gesell,hogares,6573.6140
+2025-12-01,San Bernardo (La Costa),comercio,2099.8610
+2025-12-01,San Bernardo (La Costa),hogares,2042.9690
+2025-12-01,Villa Gesell,comercio,5032.6540
+2025-12-01,Villa Gesell,hogares,7289.5330
+2025-12-01,Villa Gesell,industria,-0.0050
+2026-01-01,San Bernardo (La Costa),comercio,3129.0550
+2026-01-01,San Bernardo (La Costa),hogares,3673.8150
+2026-01-01,San Bernardo (La Costa),industria,-0.0010
+2026-01-01,Villa Gesell,comercio,7366.2900
+2026-01-01,Villa Gesell,hogares,9191.6030
+2026-01-01,Villa Gesell,industria,-0.0020
+2026-02-01,San Bernardo (La Costa),comercio,2802.0190
+2026-02-01,San Bernardo (La Costa),hogares,3072.5260
+2026-02-01,Villa Gesell,comercio,3765.8580
+2026-02-01,Villa Gesell,hogares,10485.2520
+2026-02-01,Villa Gesell,industria,-0.0030
+2026-03-01,San Bernardo (La Costa),comercio,2117.3460
+2026-03-01,San Bernardo (La Costa),hogares,1831.6620
+2026-03-01,Villa Gesell,comercio,4534.5450
+2026-03-01,Villa Gesell,hogares,6765.3030
+2026-03-01,Villa Gesell,industria,-0.0010
+2026-04-01,San Bernardo (La Costa),comercio,1544.6890
+2026-04-01,San Bernardo (La Costa),hogares,1570.1030
+2026-04-01,San Bernardo (La Costa),industria,-0.0010
+2026-04-01,Villa Gesell,comercio,3613.0070
+2026-04-01,Villa Gesell,hogares,6548.0860
+2026-04-01,Villa Gesell,industria,-0.0020
+2026-05-01,San Bernardo (La Costa),comercio,1706.8810
+2026-05-01,San Bernardo (La Costa),hogares,1837.2330
+2026-05-01,San Bernardo (La Costa),industria,-0.0010
+2026-05-01,Villa Gesell,comercio,3193.3760
+2026-05-01,Villa Gesell,hogares,9600.6910
+2026-05-01,Villa Gesell,industria,-0.0020
+2026-06-01,San Bernardo (La Costa),comercio,1568.5120
+2026-06-01,San Bernardo (La Costa),hogares,1930.6820
+2026-06-01,Villa Gesell,comercio,3403.8520
+2026-06-01,Villa Gesell,hogares,9759.3990
+2026-07-01,San Bernardo (La Costa),comercio,1778.8780
+2026-07-01,San Bernardo (La Costa),hogares,2287.7120
+2026-07-01,Villa Gesell,comercio,3654.3200
+2026-07-01,Villa Gesell,hogares,11165.8970
+2026-08-01,San Bernardo (La Costa),comercio,1623.2550
+2026-08-01,San Bernardo (La Costa),hogares,2087.0540
+2026-08-01,Villa Gesell,comercio,3357.2710
+2026-08-01,Villa Gesell,hogares,10190.0480

@@ -20,6 +20,7 @@ ARCHIVOS = {
     'series': 'series_nacionales.csv',
     'tarifas': 'tarifas_cammesa.csv',
     'grandes_usuarios': 'grandes_usuarios_electricidad.csv.gz',
+    'costa': 'electricidad_costa_atlantica.csv',
 }
 
 
@@ -35,6 +36,7 @@ def preparar(refrescar: bool = False) -> dict[str, pd.DataFrame]:
         'series': fuentes.series_nacionales(refrescar),
         'tarifas': procesar.tabla_tarifas(dem),
         'grandes_usuarios': procesar.grandes_usuarios_electricos(dem),
+        'costa': procesar.electricidad_agentes(dem, procesar.AGENTES_COSTA),
     }
     P.mkdir(parents=True, exist_ok=True)
     for k, df in T.items():
@@ -58,5 +60,6 @@ def calcular(actualizar: bool = False) -> dict:
     T = preparar(refrescar=True) if actualizar else leer()
     panel = procesar.panel(T['electricidad'], T['gas'])
     R = indices.construir(panel, T['gas'], T['ramas_gas'], T['series'], procesar.provincias())
+    R['costa'] = indices.costa(T['costa'], T['electricidad'])
     R['tablas'] = T
     return R

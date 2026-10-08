@@ -67,6 +67,9 @@ def hojas(R: dict) -> dict[str, pd.DataFrame]:
         'Ramas_gas_TJ_anual': R['ramas']['anual'],
         'Ramas_gas_indice_12m': R['ramas']['indice_12m'],
         'Gas_m3_por_usuario': R['gas_por_usuario'].loc['2012-01-01':],
+        'Costa_resumen': R['costa']['resumen'],
+        'Costa_GWh_mensual': R['costa']['mensual_gwh'],
+        'Costa_temporadas_indice': R['costa']['temporadas_indice'],
         'Tarifas_CAMMESA': R['tablas']['tarifas'],
     }
 

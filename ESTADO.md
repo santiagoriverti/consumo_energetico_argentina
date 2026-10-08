@@ -1,14 +1,15 @@
 # ESTADO — consumo_energetico_argentina (ICE)
 
-**Última actualización:** 2026-10-07 (sesión 1: arranque del proyecto). Punto de entrada para retomar:
+**Última actualización:** 2026-10-08 (sesión 1: arranque del proyecto + sección LaTeX y Costa Atlántica). Punto de entrada para retomar:
 este archivo → `CLAUDE.md` (reglas) → `CONTEXTO.md` (fuentes, decisiones, trampas) →
 `.claude/memory/project.md` (historial).
 
 ## 0. Estado en una línea
 
-Versión 0 funcionando y verificada en local: pipeline completo (CAMMESA + ENARGAS → panel en TJ → índices
-nacionales, provinciales y por rama), 2 notebooks para Colab, 0 alertas de calidad, 27 tests. Falta correrlo
-en Colab y que el usuario confirme las decisiones metodológicas de §5.
+Versión 0 funcionando y verificada en local y en Colab: pipeline completo (CAMMESA + ENARGAS → panel en TJ →
+índices nacionales, provinciales y por rama, más la Costa Atlántica), 2 notebooks, 0 alertas de calidad, 27
+tests. Sección del informe INECO en `docs/informe_indicadores/seccion_energia.tex`. Falta que el usuario
+confirme las decisiones metodológicas de §5.
 
 ## 1. Cobertura de datos
 
@@ -32,6 +33,11 @@ en Colab y que el usuario confirme las decisiones metodológicas de §5.
   Córdoba 6,6%, Mendoza 5,0%.
 - Ramas (gas de grandes usuarios, 12 meses vs anteriores): destilería −62%, cementeras −13%, otras
   industrias −18%, aceiteras +7%, alimenticia +6%.
+- Tendencia-ciclo industria jul-2026 93,4: mínimo desde 2012 (máximo ago-2023 104,0).
+- **Costa Atlántica** (CAMMESA, cooperativas de Villa Gesell y San Bernardo; Pinamar y Madariaga no son agentes
+  del MEM): enero / promedio mensual 1,43 y 2,07 (país 1,11); invierno 2026 vs 2016 +18,0% y +24,3% (país
+  +10,2%); verano 2026 vs 2016 −2,2% y −31,9% (país +3,5%); verano/invierno 1,34→1,11 y 3,08→1,69; verano
+  2026 vs 2025 −2,5% y −2,1% (país −6,0%).
 
 ## 3. Dónde se citan las cifras
 
@@ -39,6 +45,7 @@ en Colab y que el usuario confirme las decisiones metodológicas de §5.
 |---|---|
 | `README.md` | "Primeros resultados" (12 meses, PJ por provincia, ramas, índice desest.) |
 | `ESTADO.md` §2 | todas |
+| `docs/informe_indicadores/seccion_energia.tex` | sección del informe INECO "Propuesta de Indicadores Económicos" (Overleaf): 12 meses, tendencia, ramas, intensidad, provincias, hogares, Cuadro 2 de la Costa Atlántica. Figuras 01, 03, 07 y 11 de `output/graficos/`; bibitems nuevos al principio del archivo |
 | Markdown de `scripts/gen_notebooks.py` | solo lecturas cualitativas (gas ~3/4, anomalía 2019-20) |
 
 ## 4. Verificación
@@ -47,7 +54,10 @@ en Colab y que el usuario confirme las decisiones metodológicas de §5.
   por sector vs SSPM < 1,5%; sin tarifas sin clasificar; saltos de nomenclatura < 1,3 p.p.; 2015 entre
   bases < 0,2%; sin meses faltantes).
 - `python -m pytest tests -q` → 27 passed.
-- Notebooks 01 y 02 ejecutados en local con `nbconvert` (sin errores). **Colab: pendiente.**
+- Notebooks 01 y 02 ejecutados en local con `nbconvert` (sin errores) y en **Colab** (2026-10-08, commit
+  `0b9f55a`): las tablas que devolvió Colab coinciden con las locales. La sección Costa Atlántica del NB02 es
+  posterior a ese commit.
+- `seccion_energia.tex` compila con el preámbulo del informe (MiKTeX, sin errores ni overfull).
 
 ## 5. Próximos pasos / decisiones a confirmar con el usuario
 
@@ -57,7 +67,9 @@ en Colab y que el usuario confirme las decisiones metodológicas de §5.
    corregirla (p. ej. topear ese usuario a su nivel 2017-2019)?
 3. Clasificar los grandes usuarios eléctricos del MEM por rama (CONTEXTO §4).
 4. Hogares: corrección por temperatura y consumo per cápita (población por provincia).
-5. Correr los notebooks en Colab y comparar el ZIP con `output/`.
+5. **Foco Pinamar / General Madariaga** (propuesta de la sección LaTeX): pedir datos por partido a la
+   distribuidora regional y al OCEBA, gas por localidad a Camuzzi Gas Pampeana, temperatura del SMN y luces
+   nocturnas VIIRS por partido. Ojo: CEVIGE (Villa Gesell) tiene un julio-2019 anómalo (8,1 GWh vs ~12).
 
 ## 6. Rutina mensual
 

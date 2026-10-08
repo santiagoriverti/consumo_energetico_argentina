@@ -1,0 +1,114 @@
+% Seccion del informe INECO "Propuesta de Indicadores Economicos" (documento completo en Overleaf).
+% Figuras: copiar de output/graficos/ a figuras/ los archivos 01_indice_industrial.png,
+% 03_industria_vs_ipi.png, 07_ranking_provincias.png y 11_costa_atlantica.png.
+% Cifras: python scripts/construir.py (datos a julio 2026; electricidad a agosto 2026).
+% Bibitems nuevos (agregar a thebibliography): cammesa, enargas, indec_ipi, sspm, stl, indec_censo.
+
+\section{Consumo de Energía en Argentina y en Pinamar}
+
+El Índice de Consumo Energético (ICE) mide cuánta energía consumen cada mes la industria y los hogares de Argentina, y en qué provincias, sumando electricidad y gas natural en una misma unidad física. Se construye con registros administrativos completos ---toda la demanda eléctrica informada a CAMMESA y todo el gas entregado informado al ENARGAS--- y no con encuestas, por lo que complementa a los índices de producción: mide un insumo físico, no requiere deflactores y puede abrirse por provincia y por rama industrial. La serie es mensual desde enero de 2012 (la de gas, desde 1993) y se actualiza con cada publicación de ambas fuentes. La misma información permite, además, construir indicadores locales: la sección termina con una propuesta para seguir el consumo de Pinamar, General Madariaga y los partidos vecinos de la Costa Atlántica.
+
+\subsection{Metodología}
+
+La electricidad proviene de la base del Informe Mensual de CAMMESA \cite{cammesa}, que informa la demanda de cada agente del mercado eléctrico mayorista por provincia y tarifa; el gas, de los datos operativos del ENARGAS \cite{enargas}, que informan el gas entregado y la cantidad de usuarios por provincia y tipo de usuario. El Cuadro~\ref{tab:ice_componentes} resume qué incluye cada sector. El sector eléctrico se asigna según la tarifa y no según la categoría que publica CAMMESA, porque esta cambió de criterio en 2016 y en 2026: usada sin corregir, mezcla usuarios comerciales con industriales. En el gas, la industria incluye el \emph{by-pass} ---las plantas que toman el gas directamente de los gasoductos de transporte, entre el 15 y el 18\% del gas industrial---, que el ENARGAS informa por área de licencia y que se reparte entre las provincias de cada área según la estructura de su consumo industrial en el mismo mes.
+
+\begin{table}[!htb]
+\centering
+\small
+\caption{Componentes del Índice de Consumo Energético}
+\vspace{.25 cm}
+\label{tab:ice_componentes}
+\begin{tabular}{@{}p{2.6cm}p{6.2cm}p{6.2cm}@{}}
+\toprule
+Sector & Electricidad (CAMMESA) & Gas natural (ENARGAS) \\
+\midrule
+Industria & Grandes usuarios del mercado mayorista (incluye autogeneradores) y usuarios de las distribuidoras con demanda de 300 kW o más & Usuarios industriales de las distribuidoras y \emph{by-pass} industrial \\
+Hogares & Tarifas residenciales (incluye tarifa social y electrodependientes) & Usuarios residenciales \\
+Comercio y servicios & Usuarios no residenciales de menos de 300 kW y alumbrado público & Usuarios comerciales y entes oficiales \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Ambas fuentes se suman en energía final, medida en terajoules (TJ), y el índice se expresa con base 2016 = 100, la misma del IPI manufacturero del INDEC \cite{indec_ipi}:
+\begin{equation*}
+E_{s,p,t} = 0{,}0036\,\text{MWh}_{s,p,t} + 0{,}03894\,G_{s,p,t}, \qquad
+\text{ICE}_{s,t} = 100\,\frac{\sum_{p} E_{s,p,t}}{\bar{E}_{s,2016}},
+\end{equation*}
+donde $s$ es el sector, $p$ la provincia, $G$ el gas entregado en miles de m$^3$ de 9.300 kcal y $\bar{E}_{s,2016}$ el promedio mensual de 2016. Cada fuente pesa lo que pesa en energía, sin ponderadores arbitrarios: en la industria, el gas representa alrededor de tres cuartos del total. La serie se desestacionaliza con el método STL \cite{stl}, las variaciones interanuales se calculan sobre la serie original y las comparaciones provinciales usan sumas de 12 meses. Como validación, la demanda eléctrica total y la residencial coinciden con las series nacionales que publica la Secretaría de Política Económica \cite{sspm} con diferencias menores al 0,21\% en todos los años, y el gas de cada sector, con diferencias menores al 1,5\%.
+
+El índice tiene cuatro limitaciones principales: la electricidad industrial incluye a los grandes comercios y servicios de 300 kW o más, que no pueden separarse; no cubre los combustibles líquidos ni el gas licuado; Tierra del Fuego no está conectada al sistema eléctrico nacional y Misiones y Formosa no tienen gas natural por redes, y la provincia de Buenos Aires incluye a la Ciudad de Buenos Aires, porque CAMMESA no las separa. Además, entre octubre de 2019 y marzo de 2020 un único gran usuario de gas de la provincia de Buenos Aires multiplicó por veinte su consumo y explica el pico del índice previo a la pandemia; el caso está en revisión.
+
+\subsection{Resultados}
+
+En los 12 meses a julio de 2026 la industria consumió 515 petajoules (PJ), el 74\% en forma de gas. El consumo cayó un 8,1\% respecto de los 12 meses anteriores y un 10,3\% respecto de 2023, pero las dos fuentes se movieron en direcciones opuestas: la electricidad industrial creció un 4,0\% y el gas industrial cayó un 11,8\%. La tendencia-ciclo del índice se ubica en 93,4 puntos, el valor más bajo desde 2012 y un 10\% por debajo del máximo de agosto de 2023 (Figura~\ref{fig:ice_industria}). La caída del gas se concentra en pocos usuarios muy grandes: entre los grandes usuarios industriales de las distribuidoras, el consumo de las destilerías cayó un 62\%, el de las cementeras un 13\% y el de ``otras industrias'' un 18\%, mientras que el de las aceiteras y el de la industria alimenticia creció un 7\% y un 6\%, respectivamente.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.85\textwidth]{figuras/01_indice_industrial.png}
+\caption{Índice de Consumo Energético industrial (electricidad y gas), enero de 2012 a julio de 2026 (2016 = 100): serie original, desestacionalizada y tendencia-ciclo.}
+\label{fig:ice_industria}
+\end{figure}
+
+Frente a la producción, el consumo de energía cae menos en las recesiones: los procesos continuos y los consumos fijos hacen que la energía por unidad producida suba cuando se frena la actividad. La relación entre el índice desestacionalizado y el IPI manufacturero (intensidad energética, 2016 = 100) fue de 117 en 2019, volvió a 100 en 2021 con la recuperación, subió a 114 en 2024 y bajó a 105 en 2025 (Figura~\ref{fig:ice_ipi}).
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.85\textwidth]{figuras/03_industria_vs_ipi.png}
+\caption{Consumo energético industrial e IPI manufacturero del INDEC, series desestacionalizadas, enero de 2016 a julio de 2026 (2016 = 100).}
+\label{fig:ice_ipi}
+\end{figure}
+
+Cinco jurisdicciones concentran el 83\% de la energía industrial (Figura~\ref{fig:ice_provincias}): Buenos Aires junto con la Ciudad de Buenos Aires (48,4\%), Santa Fe (13,0\%), Chubut (10,2\%, por la producción de aluminio), Córdoba (6,6\%) y Mendoza (5,0\%). En el último año la caída se concentró en Buenos Aires ($-14{,}2\%$), por el gas ($-18{,}5\%$, con la electricidad en $+0{,}8\%$), mientras que en Córdoba la electricidad industrial creció un 10,1\%. En los hogares, el consumo de los últimos 12 meses (639 PJ) aumentó un 2,4\%. Desde 2016 la electricidad residencial creció un 16,9\% y el gas residencial cayó un 5,5\%, de modo que la electricidad pasó de representar el 30,6\% de la energía de los hogares en 2012 al 37,9\% en 2025.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.8\textwidth]{figuras/07_ranking_provincias.png}
+\caption{Consumo energético industrial por provincia y fuente en los 12 meses a julio de 2026, en PJ y en porcentaje del total del país.}
+\label{fig:ice_provincias}
+\end{figure}
+
+\subsection{Foco local: Pinamar, General Madariaga y la Costa Atlántica}
+
+Los partidos turísticos de la costa bonaerense tienen pocas estadísticas propias y una población que se multiplica en verano. El consumo de energía, que se registra todos los meses, puede funcionar como indicador local de la temporada turística y de la población permanente. Ni CAMMESA ni el ENARGAS informan por separado el consumo de Pinamar o de General Madariaga: su demanda eléctrica está incluida en la de una distribuidora regional y el gas se publica solo por provincia y por subzona de cada distribuidora. Sin embargo, dos cooperativas eléctricas vecinas son agentes del mercado mayorista y CAMMESA publica su demanda mensual desde 2012: la de Villa Gesell (CEVIGE) y la de San Bernardo (CESOP), en el Partido de La Costa. Con ellas puede anticiparse qué mostraría un indicador para Pinamar (Cuadro~\ref{tab:ice_costa} y Figura~\ref{fig:ice_costa}).
+
+\begin{table}[!htb]
+\centering
+\small
+\caption{Demanda eléctrica de temporada y de invierno en la Costa Atlántica}
+\vspace{.25 cm}
+\label{tab:ice_costa}
+\begin{tabular}{@{}l r r r@{}}
+\toprule
+ & Villa Gesell & San Bernardo & Total país \\
+\midrule
+Demanda 2025 (GWh)                  & 150,6      & 47,9        & 141.251 \\
+Enero / promedio mensual$^{*}$      & 1,43       & 2,07        & 1,11 \\
+Verano 2026 vs.\ 2025 (\%)          & $-2{,}5$   & $-2{,}1$    & $-6{,}0$ \\
+Verano 2026 vs.\ 2016 (\%)          & $-2{,}2$   & $-31{,}9$   & $+3{,}5$ \\
+Invierno 2026 vs.\ 2016 (\%)        & $+18{,}0$  & $+24{,}3$   & $+10{,}2$ \\
+Verano / invierno, 2016             & 1,34       & 3,08        & 1,04 \\
+Verano / invierno, 2026             & 1,11       & 1,69        & 0,98 \\
+\bottomrule
+\end{tabular}
+
+\smallskip
+\parbox{12.5cm}{\footnotesize Verano: demanda mensual promedio de enero y febrero; invierno: de junio a agosto. $^{*}$Promedio de 2012--2025. Fuente: INECO--UADE en base a CAMMESA.}
+\end{table}
+
+La estacionalidad es muy marcada: en enero la demanda duplica el promedio mensual en San Bernardo (2,07 veces) y lo supera en un 43\% en Villa Gesell, frente al 11\% del total del país. Lo más llamativo es su evolución. Desde 2016 la demanda de invierno, que refleja a la población permanente, creció un 18\% en Villa Gesell y un 24\% en San Bernardo, bastante más que en el país (10\%) y con un salto en 2021 y 2022, mientras que la de temporada se estancó en Villa Gesell ($-2\%$) y cayó un 32\% en San Bernardo. La relación entre la demanda de verano y la de invierno bajó así de 1,34 a 1,11 en Villa Gesell y de 3,08 a 1,69 en San Bernardo: la demanda de la costa se volvió mucho menos estacional. El patrón es compatible con más residentes permanentes después de la pandemia, aunque también influyen la temperatura de cada temporada y el uso de calefacción eléctrica, que deben controlarse antes de sacar conclusiones. En el verano de 2026 la demanda cayó un 2,5\% en Villa Gesell y un 2,1\% en San Bernardo, menos que en el total del país (6,0\%).
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=\textwidth]{figuras/11_costa_atlantica.png}
+\caption{Demanda eléctrica mensual promedio de verano (enero y febrero) y de invierno (junio a agosto) de las cooperativas de San Bernardo (Partido de La Costa) y Villa Gesell, 2012--2026 (2016 = 100).}
+\label{fig:ice_costa}
+\end{figure}
+
+Pinamar comparte estas características, y General Madariaga, como partido vecino del interior, permite contrastar un partido turístico con uno de servicios y producción agropecuaria. Se propone construir un índice local en cinco pasos:
+\begin{enumerate}
+\item \textbf{Electricidad por partido.} Solicitar a la distribuidora regional y al Organismo de Control de Energía Eléctrica de la Provincia de Buenos Aires (OCEBA) la energía facturada y la cantidad de usuarios por mes y por categoría de Pinamar y General Madariaga, y sumar Villa Gesell, La Costa y Mar Chiquita como comparación.
+\item \textbf{Gas por localidad.} Pedir a Camuzzi Gas Pampeana, distribuidora de la zona, el gas entregado y los usuarios por localidad y por tipo de usuario.
+\item \textbf{Normalización.} Expresar el consumo por usuario y por habitante, con el Censo 2022 \cite{indec_censo}, y corregirlo por temperatura con las estaciones del Servicio Meteorológico Nacional de la zona, para separar el efecto del clima del de la cantidad de residentes y turistas.
+\item \textbf{Indicadores satelitales.} Complementar con las luces nocturnas que registran los satélites (VIIRS), disponibles mensualmente para cualquier partido, para empezar a medir Pinamar y General Madariaga mientras se obtienen los datos de las distribuidoras.
+\item \textbf{Producto.} Un índice mensual de consumo energético de la Costa Atlántica con dos componentes ---temporada y población permanente---, publicable en el boletín mensual de la UADE junto con el índice nacional.
+\end{enumerate}

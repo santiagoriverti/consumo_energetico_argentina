@@ -94,6 +94,19 @@ def electricidad(dem: pd.DataFrame) -> pd.DataFrame:
     return d.groupby(['fecha', 'provincia', 'sector'], as_index=False)['mwh'].sum()
 
 
+# Distribuidoras de la Costa Atlantica que son agentes del MEM (Pinamar y General Madariaga no lo son:
+# su demanda esta dentro de la de una distribuidora regional y CAMMESA no la informa por separado).
+AGENTES_COSTA = {'CEVIGE3W': 'Villa Gesell', 'CSBERN3W': 'San Bernardo (La Costa)'}
+
+
+def electricidad_agentes(dem: pd.DataFrame, agentes: dict[str, str]) -> pd.DataFrame:
+    """fecha, localidad, sector, mwh de los agentes distribuidores indicados ({nemo: nombre})."""
+    d = dem[dem['agente'].isin(list(agentes))].copy()
+    d['localidad'] = d['agente'].map(agentes)
+    d['sector'] = [sector_tarifa(a, b, c) for a, b, c in zip(d['tarifa'], d['tipo_agente'], d['categoria_tarifa'])]
+    return d.groupby(['fecha', 'localidad', 'sector'], as_index=False)['mwh'].sum()
+
+
 def grandes_usuarios_electricos(dem: pd.DataFrame) -> pd.DataFrame:
     """Demanda mensual de cada agente industrial del MEM (para analisis por empresa / rama)."""
     alias = _mapa_alias('cammesa')
