@@ -35,7 +35,7 @@
   - hogares: tarifas residenciales, sociales, electrodependientes.
   - Por qué no la "CATEGORIA TARIFA" de CAMMESA: hasta 2014 la tarifa de 10-300 kW ("SANCIONADO") estaba en
     Industrial/Comercial Grande y el alumbrado público en Residencial.
-  - Resultado: total y residencial = SSPM con error < 0,2% en 2012-2025.
+  - Resultado: total y residencial = SSPM con error < 0,21% en 2012-2025 (máximo: residencial 2018, 0,201%).
 - **Gas**: INDUSTRIALES → industria; DOMICILIARIOS → hogares; COMERCIALES + ENTES OFICIALES → comercio.
   Fuera: GNC (transporte), centrales eléctricas (generación), SDB (subdistribuidores; ~0,7 mil millones de
   m³/año, mayormente residencial en pueblos chicos).
@@ -52,6 +52,20 @@
 - **Provincias**: sumas móviles de 12 meses. Buenos Aires incluye CABA (CAMMESA no las separa).
 - **Ramas (GEGU)**: solo grandes usuarios de distribuidoras (sin by-pass). Se agrupan
   Metalúrgica / Ferrosa / No Ferrosa y Química / Petroquímica porque ENARGAS reclasificó en 2025.
+- **Costa Atlántica** (`procesar.AGENTES_COSTA`, `indices.costa`): demanda eléctrica total (todos los
+  sectores) de dos cooperativas que son agentes distribuidores del MEM: Villa Gesell (`CEVIGE3W`) y San
+  Bernardo, Partido de La Costa (`CSBERN3W`, CESOP). **Pinamar y General Madariaga no son agentes del MEM**:
+  su demanda está dentro de la de una distribuidora regional y CAMMESA no la informa por separado (verificado
+  buscando PINAMAR, MADARIAGA, CARILO, OSTENDE, VALERIA en las descripciones de agentes). ENARGAS tampoco
+  publica gas por partido (solo provincia y subzona de cada distribuidora).
+  - Verano = promedio mensual de enero y febrero; invierno = promedio mensual de junio a agosto (población
+    permanente); "enero / promedio" = enero sobre el promedio mensual de su año, promediado 2012-2025.
+  - Referencia: el total del país (toda la demanda de CAMMESA) con las mismas definiciones (`Total país`).
+  - Se compara contra 2016 (año base del índice) y contra el año anterior.
+- **Certificados**: `fuentes._get` reintenta con `verify=False` solo si la verificación SSL falla (CAMMESA y
+  ENARGAS no envían la cadena completa). Son datos públicos y la integridad se controla contra las series de
+  la SSPM. Alternativa más estricta (la que usa infraestuctura_argentina con ENACOM): armar un bundle de
+  certifi con el certificado intermedio.
 
 ## 3. Trampas y anomalías conocidas
 
@@ -72,6 +86,12 @@
 - Los textos de los xlsx de ENARGAS son UTF-8 correctos (los "�" que aparecen en la consola de Windows son
   de la consola).
 - La API de datos.gob.ar acepta pocas series por pedido: `fuentes.series_nacionales` pide de a 10.
+- **Villa Gesell (CEVIGE)**: julio de 2019 vale 8,1 GWh contra 11,5 a 15 en los demás julios (el invierno
+  2019 del gráfico 11 cae a 83). Además, entre 2017 y 2019 la demanda comercial baja de 58,0 a 43,4 GWh/año
+  y la residencial sube de 72,4 a 80,8 (2018) y 79,3 (2019): parece una reclasificación de tarifas. Para la
+  costa usar la demanda total, no la apertura por sector.
+- La demanda de verano de la costa depende mucho de la temperatura (aire acondicionado) y la de invierno de
+  la calefacción eléctrica: las variaciones de la costa son descriptivas hasta corregir por clima.
 
 ## 4. Ideas para seguir (no implementadas)
 
@@ -82,3 +102,18 @@
 - Ponderación alternativa por costo (la electricidad vale más por TJ que el gas) como sensibilidad.
 - Población por provincia (Censo 2022) para consumo per cápita de hogares.
 - Combustibles líquidos para industria (Secretaría de Energía, ventas por canal) y GLP.
+- **Foco Pinamar / General Madariaga** (propuesta de la sección LaTeX, 5 pasos): (1) energía facturada y
+  usuarios por mes y categoría por partido, pedidos a la distribuidora regional y al OCEBA (Organismo de
+  Control de Energía Eléctrica de la Provincia de Buenos Aires), con Villa Gesell, La Costa y Mar Chiquita como
+  comparación; (2) gas por localidad a Camuzzi Gas Pampeana; (3) por usuario, por habitante (Censo 2022) y
+  corregido por temperatura (estaciones del SMN de la zona); (4) luces nocturnas satelitales (VIIRS) por
+  partido mientras llegan los datos; (5) índice mensual de la Costa Atlántica con componentes temporada y
+  población permanente para el boletín mensual de la UADE.
+
+## 5. Reproducibilidad
+
+- `construir.py` produce los mismos bytes en `data/processed/` y `output/graficos/` si los datos no cambian
+  (los `.csv.gz` se escriben con `mtime=0`). El Excel de `output/` cambia siempre (guarda la fecha).
+- Entorno probado: Python 3.14.5, pandas 2.3.3, numpy 2.4.6, matplotlib 3.10.9, openpyxl 3.1.5,
+  statsmodels 0.14.6, requests 2.34.2 (PC del usuario) y el entorno por defecto de Colab.
+- Los notebooks leen `data/processed/` del repo: en Colab no se baja nada salvo con `ACTUALIZAR = True`.

@@ -60,6 +60,22 @@ def test_a_base_y_desestacionalizar():
     assert d['desest'].pct_change().abs().max() < 0.05
 
 
+def test_costa_temporadas():
+    idx = pd.date_range('2016-01-01', '2018-12-01', freq='MS')
+    escala = {2016: 1.0, 2017: 1.05, 2018: 1.1}
+    mwh = [escala[d.year] * (2000.0 if d.month in (1, 2) else 1000.0) for d in idx]
+    df = pd.DataFrame({'fecha': idx, 'localidad': 'X', 'sector': 'hogares', 'mwh': mwh})
+    res = indices.costa(df, df[['fecha', 'sector', 'mwh']])['resumen']
+    r = res.loc['X']
+    assert r['verano_2018_vs_2017_%'] == pytest.approx(100 * (1.1 / 1.05 - 1))
+    assert r['verano_2018_vs_2016_%'] == pytest.approx(10)
+    assert r['invierno_2018_vs_2016_%'] == pytest.approx(10)
+    assert r['verano_sobre_invierno_2018'] == pytest.approx(2)
+    assert r['enero_vs_promedio'] == pytest.approx(2000 / (14000 / 12))
+    assert r['part_hogares_2018_%'] == pytest.approx(100)
+    assert 'Total país' in res.index
+
+
 def test_bypass_reparte_por_area():
     f = pd.Timestamp('2024-01-01')
     ged = pd.DataFrame({'fecha': [f, f], 'provincia_enargas': ['Chubut', 'Neuquen'], 'distribuidora': ['Sur', 'Sur'],

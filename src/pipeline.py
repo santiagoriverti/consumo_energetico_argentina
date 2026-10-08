@@ -40,7 +40,10 @@ def preparar(refrescar: bool = False) -> dict[str, pd.DataFrame]:
     }
     P.mkdir(parents=True, exist_ok=True)
     for k, df in T.items():
-        df.to_csv(P / ARCHIVOS[k], index=(k == 'series'), float_format='%.4f', lineterminator='\n')
+        # gzip con mtime=0: mismo contenido -> mismos bytes (si no, git ve el archivo modificado en cada corrida)
+        comp = {'method': 'gzip', 'mtime': 0} if ARCHIVOS[k].endswith('.gz') else 'infer'
+        df.to_csv(P / ARCHIVOS[k], index=(k == 'series'), float_format='%.4f', lineterminator='\n',
+                  compression=comp)
     return T
 
 
